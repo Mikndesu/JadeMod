@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "type=jade_ore":  { "model": "jadecraft:jade_ore" }
+    }
+}

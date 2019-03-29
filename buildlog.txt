@@ -1,0 +1,29 @@
+Starting Build
+Settings evaluated using settings file '/master/settings.gradle'.
+Projects loaded. Root project using build file '/Users/Mi/Desktop/forge-1.8.9-11.15.1.2318-1.8.9-mdk/build.gradle'.
+Included projects: [root project 'forge-1.8.9-11.15.1.2318-1.8.9-mdk']
+Evaluating root project 'forge-1.8.9-11.15.1.2318-1.8.9-mdk' using build file '/Users/Mi/Desktop/forge-1.8.9-11.15.1.2318-1.8.9-mdk/build.gradle'.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'forge-1.8.9-11.15.1.2318-1.8.9-mdk'.
+> Could not resolve all dependencies for configuration ':classpath'.
+   > Could not resolve net.minecraftforge.gradle:ForgeGradle:2.1-SNAPSHOT.
+     Required by:
+         :forge-1.8.9-11.15.1.2318-1.8.9-mdk:unspecified
+      > Could not resolve net.minecraftforge.gradle:ForgeGradle:2.1-SNAPSHOT.
+         > Unable to load Maven meta-data from http://files.minecraftforge.net/maven/net/minecraftforge/gradle/ForgeGradle/2.1-SNAPSHOT/maven-metadata.xml.
+            > Could not GET 'http://files.minecraftforge.net/maven/net/minecraftforge/gradle/ForgeGradle/2.1-SNAPSHOT/maven-metadata.xml'.
+               > files.minecraftforge.net: nodename nor servname provided, or not known
+      > Could not resolve net.minecraftforge.gradle:ForgeGradle:2.1-SNAPSHOT.
+         > Unable to load Maven meta-data from https://jcenter.bintray.com/net/minecraftforge/gradle/ForgeGradle/2.1-SNAPSHOT/maven-metadata.xml.
+            > Could not GET 'https://jcenter.bintray.com/net/minecraftforge/gradle/ForgeGradle/2.1-SNAPSHOT/maven-metadata.xml'.
+               > jcenter.bintray.com: nodename nor servname provided, or not known
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 2.081 secs
