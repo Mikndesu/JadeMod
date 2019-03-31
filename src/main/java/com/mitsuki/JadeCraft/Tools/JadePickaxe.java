@@ -24,4 +24,3 @@ public class JadePickaxe extends ItemPickaxe {
 		return "JadePickaxe";
 	}
 }
- 

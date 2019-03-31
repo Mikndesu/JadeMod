@@ -107,8 +107,9 @@ public class JadeCraftCore {
 		  GameRegistry.registerBlock(jadeBlock, "jadeblock");
 		  GameRegistry.registerBlock(jade_Ore, "jade_ore");
 		  GameRegistry.registerBlock(sapphireBlock, "sapphireblock");
-
+		  GameRegistry.registerBlock(sapphire_Ore, "Sapphire_Ore");
 		  GameRegistry.registerItem(jade, "jade");
+		  GameRegistry.registerItem(sapphire, "sapphire");
 		  GameRegistry.registerItem(jade_Crystal, "jade_crystal");
 		  GameRegistry.registerItem(mysterious_Crystal, "mysterious_crystal");
 		  GameRegistry.registerItem(caliburn, "Caliburn");
@@ -132,15 +133,23 @@ public class JadeCraftCore {
 		  GameRegistry.registerItem(jadeShovel, "jadeshovel");
 		  GameRegistry.registerItem(jadeAxe, "jadeaxe");
 		  GameRegistry.addSmelting(jade_Ore, new ItemStack(jade), 1.0F);
+		  GameRegistry.addSmelting(sapphire_Ore, new ItemStack(sapphire), 1.0F);
+
 		  if (event.getSide().isClient()) {
 
 			ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(jadeBlock), 0,
-			    new ModelResourceLocation(MOD_ID +":" + "jadeblock", "inventory"));
+			    new ModelResourceLocation(MOD_ID + ":" + "jadeblock", "inventory"));
 			ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(jade_Ore), 0,
-				new ModelResourceLocation(MOD_ID +":" + "jade_ore", "inventory"));
+				new ModelResourceLocation(MOD_ID + ":" + "jade_ore", "inventory"));
+			ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(sapphire_Ore), 0,
+				new ModelResourceLocation(MOD_ID + ":" + "sapphire_ore", "inventory"));
+			ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(sapphireBlock), 0,
+				new ModelResourceLocation(MOD_ID + ":" + "sapphireBlock", "inventory"));
 
 			ModelLoader.setCustomModelResourceLocation(jade, 0,
 				new	ModelResourceLocation(MOD_ID + ":" + "jade", "inventory"));
+			ModelLoader.setCustomModelResourceLocation(sapphire, 0,
+					new	ModelResourceLocation(MOD_ID + ":" + "sapphire", "inventory"));
 			ModelLoader.setCustomModelResourceLocation(jade_Crystal, 0,
 				new	ModelResourceLocation(MOD_ID + ":" + "jade_crystal", "inventory"));
 			ModelLoader.setCustomModelResourceLocation(mysterious_Crystal, 0,
@@ -182,15 +191,15 @@ public class JadeCraftCore {
 	    }
 
 	@SubscribeEvent
-	public void generateOrePre(OreGenEvent.Pre event) {
-		WorldGenerator chrowa3BlockGen = new WorldGenMinable(jade_Ore.getDefaultState(), 3);
+	public void generateOrePre1(OreGenEvent.Pre event) {
+		WorldGenerator BlockGen1 = new WorldGenMinable(jade_Ore.getDefaultState(), 3);
 
-		if (TerrainGen.generateOre(event.world, event.rand, chrowa3BlockGen, event.pos,
+		if (TerrainGen.generateOre(event.world, event.rand, BlockGen1, event.pos,
 			OreGenEvent.GenerateMinable.EventType.CUSTOM))
-			genStandardOre(event.world, event.pos, 2, chrowa3BlockGen, 30, 50, event.rand);
+			genStandardOre1(event.world, event.pos, 2, BlockGen1, 30, 50, event.rand);
 	}
 
-	protected void genStandardOre(World world, BlockPos pos, int size, WorldGenerator generator,int minY, int maxY,
+	protected void genStandardOre1(World world, BlockPos pos, int size, WorldGenerator generator,int minY, int maxY,
 		Random rnd) {
 	  int l;
 
@@ -206,7 +215,37 @@ public class JadeCraftCore {
 	  }
 
 	  for (l = 0; l < size; ++l) {
-		BlockPos blockpos = pos.add(rnd.nextInt(16), rnd.nextInt(maxY - minY) + minY, rnd.nextInt(16));
+		BlockPos blockpos = pos.add(rnd.nextInt(10), rnd.nextInt(maxY - minY) + minY, rnd.nextInt(10));
+		generator.generate(world, rnd, blockpos);
+	  }
+	}
+
+	@SubscribeEvent
+	public void generateOrePre2(OreGenEvent.Pre event) {
+		WorldGenerator BlockGen2 = new WorldGenMinable(sapphire_Ore.getDefaultState(), 3);
+
+		if (TerrainGen.generateOre(event.world, event.rand, BlockGen2, event.pos,
+			OreGenEvent.GenerateMinable.EventType.CUSTOM))
+			genStandardOre2(event.world, event.pos, 2, BlockGen2, 30, 50, event.rand);
+	}
+
+	protected void genStandardOre2(World world, BlockPos pos, int size, WorldGenerator generator,int minY, int maxY,
+		Random rnd) {
+	  int l;
+
+	  if (minY < minY) {
+		l = minY;
+		minY = maxY;
+		maxY = l;
+	  } else if (maxY == minY) {
+		if (minY < 255)
+		  ++maxY;
+		else
+		  --minY;
+	  }
+
+	  for (l = 0; l < size; ++l) {
+		BlockPos blockpos = pos.add(rnd.nextInt(7), rnd.nextInt(maxY - minY) + minY, rnd.nextInt(7));
 		generator.generate(world, rnd, blockpos);
 	  }
 	}
@@ -282,7 +321,7 @@ GameRegistry.addRecipe(new ItemStack(caliburn),
 		   "RIR",
 		   'M', mysterious_Crystal,
 		   'G', Items.gold_ingot,
-		   'R', Items.dye,
+		   'R', Items.iron_ingot,
 		   'I', Items.stick,
 		   'S', Items.diamond_sword);
 GameRegistry.addRecipe(new ItemStack(avalon),

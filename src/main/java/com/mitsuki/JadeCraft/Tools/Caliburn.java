@@ -7,7 +7,7 @@ import net.minecraft.item.ItemSword;
 import net.minecraftforge.common.util.EnumHelper;
 
 public class Caliburn extends ItemSword {
-	public static ToolMaterial Imagine = EnumHelper.addToolMaterial("IMAGINE", 3, 7777, 25.0F, 25.0F, 40);
+	public static ToolMaterial Imagine = EnumHelper.addToolMaterial("IMAGINE", 0, 1, 25.0F, 100.0F, 25);
 
 	public Caliburn() {
 		super(Imagine);

@@ -46,7 +46,7 @@ public class Jade_Ore extends Block {
 		super(Material.rock);
 		setCreativeTab(JadeCraftCore.tabsJade);
 		setUnlocalizedName("JADE_ORE");
-		setHardness(1.5F);
+		setHardness(50F);
 		setResistance(1.0F);
 		setStepSound(Block.soundTypeStone);
 		disableStats();

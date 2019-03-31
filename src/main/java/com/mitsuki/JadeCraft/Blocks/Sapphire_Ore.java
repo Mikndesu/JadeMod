@@ -44,7 +44,7 @@ public class Sapphire_Ore extends Block {
 	@SuppressWarnings("unchecked")
 	public Sapphire_Ore() {
 		super(Material.rock);
-		setCreativeTab(JadeCraftCore.tabsJade);
+		setCreativeTab(JadeCraftCore.tabsSapphire);
 		setUnlocalizedName("SAPPHIRE_ORE");
 		setHardness(1.5F);
 		setResistance(1.0F);

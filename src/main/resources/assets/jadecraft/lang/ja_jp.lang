@@ -1,4 +1,5 @@
 tile.JadeBlock.name=ヒスイのブロック
-tile.JADE_ORE.name=ヒスイ鉱石
+tile.Jade_Ore.name=ヒスイ鉱石
 item.Jade.name=ヒスイ
 item.Jade_Crystal.name=ヒスイのクリスタル
+item.sapphire.name=サファイア
