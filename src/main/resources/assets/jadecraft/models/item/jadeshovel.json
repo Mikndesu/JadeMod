@@ -1,7 +1,7 @@
 {
     "parent": "builtin/generated",
     "textures": {
-        "layer0": "jadecraft:items/jadeshovel"
+        "layer0": "jadecraft:items/tools/jadeshovel"
     },
     "display": {
         "thirdperson": {

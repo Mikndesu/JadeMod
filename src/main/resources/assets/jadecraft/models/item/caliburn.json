@@ -1,7 +1,7 @@
 {
     "parent": "builtin/generated",
     "textures": {
-        "layer0": "jadecraft:items/caliburn"
+        "layer0": "jadecraft:items/tools/caliburn"
     },
     "display": {
         "thirdperson": {

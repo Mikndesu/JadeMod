@@ -1,7 +1,7 @@
 {
     "parent": "builtin/generated",
     "textures": {
-        "layer0": "jadecraft:items/jadesword"
+        "layer0": "jadecraft:items/tools/jadesword"
     },
     "display": {
         "thirdperson": {

@@ -1,7 +1,7 @@
 {
     "parent": "builtin/generated",
     "textures": {
-        "layer0": "jadecraft:items/jadepickaxe"
+        "layer0": "jadecraft:items/tools/jadepickaxe"
     },
     "display": {
         "thirdperson": {

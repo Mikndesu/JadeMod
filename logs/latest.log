@@ -1,9 +1,7 @@
-[20:25:06] [Server thread/INFO]: Starting minecraft server version 1.8.9
-[20:25:15] [Server thread/INFO]: Loading properties
-[20:25:15] [Server thread/INFO]: Default game type: SURVIVAL
-[20:25:15] [Server thread/INFO]: Generating keypair
-[20:25:16] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:25:16] [Server thread/INFO]: Using default channel type
-[20:25:16] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
-[20:25:17] [Server thread/WARN]: The exception was: java.net.BindException: Address already in use
-[20:25:17] [Server thread/WARN]: Perhaps a server is already running on that port?
+[00:30:18] [Server thread/INFO]: Starting minecraft server version 1.8.9
+[00:30:24] [Server thread/INFO]: Loading properties
+[00:30:24] [Server thread/INFO]: Default game type: SURVIVAL
+[00:30:24] [Server thread/INFO]: Generating keypair
+[00:30:25] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:30:25] [Server thread/INFO]: Using default channel type
+[00:30:26] [Server thread/INFO]: Preparing level "world"

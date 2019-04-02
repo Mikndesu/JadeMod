@@ -17,24 +17,24 @@ public class Recipe extends JadeCraftCore {
 				   "###",
 				   "###",
 				   '#', jade);
-		GameRegistry.addRecipe(new ItemStack(jadeHelmet),
+		GameRegistry.addRecipe(new ItemStack(jade_Helmet),
 				   "   ",
 				   "JJJ",
 				   "J J",
 				   'J', jade);
 		GameRegistry.addShapelessRecipe(new ItemStack(jade, 9),
 				   jadeBlock);
-	    GameRegistry.addRecipe(new ItemStack(jadeArmor),
+	    GameRegistry.addRecipe(new ItemStack(jade_Armor),
 				   "J J",
 				   "JJJ",
 				   "JJJ",
 				   'J', jade);
-		GameRegistry.addRecipe(new ItemStack(jadeLeggings),
+		GameRegistry.addRecipe(new ItemStack(jade_Leggings),
 				   "JJJ",
 				   "J J",
 				   "J J",
 				   'J', jade);
-		GameRegistry.addRecipe(new ItemStack(jadeBoots),
+		GameRegistry.addRecipe(new ItemStack(jade_Boots),
 				   "   ",
 				   "J J",
 				   "J J",

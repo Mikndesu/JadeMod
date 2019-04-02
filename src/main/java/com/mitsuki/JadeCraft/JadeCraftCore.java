@@ -9,18 +9,23 @@ import com.mitsuki.JadeCraft.Blocks.SapphireBlock;
 import com.mitsuki.JadeCraft.Blocks.Sapphire_Ore;
 import com.mitsuki.JadeCraft.CreativeTabs.CreativeTabJade;
 import com.mitsuki.JadeCraft.CreativeTabs.CreativeTabSapphire;
-import com.mitsuki.JadeCraft.Tools.Caliburn;
-import com.mitsuki.JadeCraft.Tools.Excalibur;
-import com.mitsuki.JadeCraft.Tools.JadeAxe;
-import com.mitsuki.JadeCraft.Tools.JadeHoe;
-import com.mitsuki.JadeCraft.Tools.JadePickaxe;
-import com.mitsuki.JadeCraft.Tools.JadeShovel;
-import com.mitsuki.JadeCraft.Tools.JadeSword;
+import com.mitsuki.JadeCraft.Tools.Others.Jade.JadeAxe;
+import com.mitsuki.JadeCraft.Tools.Others.Jade.JadeHoe;
+import com.mitsuki.JadeCraft.Tools.Others.Jade.JadePickaxe;
+import com.mitsuki.JadeCraft.Tools.Others.Jade.JadeShovel;
+import com.mitsuki.JadeCraft.Tools.Others.Sapphire.SapphireAxe;
+import com.mitsuki.JadeCraft.Tools.Others.Sapphire.SapphireHoe;
+import com.mitsuki.JadeCraft.Tools.Others.Sapphire.SapphirePickaxe;
+import com.mitsuki.JadeCraft.Tools.Others.Sapphire.SapphireShovel;
+import com.mitsuki.JadeCraft.Tools.Sword.Caliburn;
+import com.mitsuki.JadeCraft.Tools.Sword.Excalibur;
+import com.mitsuki.JadeCraft.Tools.Sword.JadeSword;
+import com.mitsuki.JadeCraft.Tools.Sword.SapphireSword;
 import com.mitsuki.JadeCraft.items.Avalon;
 import com.mitsuki.JadeCraft.items.Jade;
-import com.mitsuki.JadeCraft.items.Jade_Crystal;
 import com.mitsuki.JadeCraft.items.Mysterious_Crystal;
 import com.mitsuki.JadeCraft.items.Sapphire;
+import com.mitsuki.JadeCraft.items.Shining_Crystal;
 
 import net.minecraft.block.Block;
 import net.minecraft.client.resources.model.ModelResourceLocation;
@@ -52,7 +57,7 @@ public class JadeCraftCore {
 	boolean hardmode;
 	public static final String MOD_ID = "JadeCraft";
 	public static final String MOD_NAME = "JadeCraft";
-	public static final String MOD_VERSION = "1.20";
+	public static final String MOD_VERSION = "1.40";
 	public static final String MOD_DEPENDENCIES = "required-after:Forge@[1.8.9-11.15.1.2318,)";
 	public static final String MOD_ACCEPTED_MC_VERSIONS = "[1.8.9]";
 	public static final CreativeTabs tabsJade = new CreativeTabJade("Jade");
@@ -64,121 +69,173 @@ public class JadeCraftCore {
 	public static Block sapphire_Ore;
 
 	public static Item jade;
-	public static Item jade_Crystal;
 	public static Item sapphire;
 	public static Item mysterious_Crystal;
+	public static Item shining_Crystal;
+
+	//Jade Aromor
+	public static Item jade_Helmet;
+	public static Item jade_Armor;
+	public static Item jade_Leggings;
+	public static Item jade_Boots;
+
+	//Jade Tool
+	public static Item jadeSword;
+	public static Item jadePickaxe;
+	public static Item jadeAxe;
+	public static Item jadeHoe;
+	public static Item jadeShovel;
+	//Sapphire Tool
+	public static Item sapphireSword;
+	public static Item sapphirePickaxe;
+	public static Item sapphireAxe;
+	public static Item sapphireHoe;
+	public static Item sapphireShovel;
+
+	//Extra Tool
+	public static Item excalibur;
 	public static Item caliburn;
 	public static Item avalon;
-
-	public static Item jadeHelmet;
-	public static Item jadeArmor;
-	public static Item jadeLeggings;
-	public static Item jadeBoots;
-
-	public static Item jadeSword;
-	public static Item excalibur;
-	public static Item jadeHoe;
-	public static Item jadeAxe;
-	public static Item jadePickaxe;
-	public static Item jadeShovel;
 
 	public static ArmorMaterial JADE_MATERIAL = EnumHelper.addArmorMaterial("JADE", "Jade", 128,
 			new int[] { 3, 8, 6, 3 }, 128);
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
 		 MinecraftForge.ORE_GEN_BUS.register(this);
-		  jadeBlock = new JadeBlock();
-		  jade_Ore = new Jade_Ore();
-		  sapphireBlock = new SapphireBlock();
-		  sapphire_Ore = new Sapphire_Ore();
+
 		  jade = new Jade();
 		  sapphire = new Sapphire();
-		  jade_Crystal = new Jade_Crystal();
+		  shining_Crystal = new Shining_Crystal();
 		  mysterious_Crystal = new Mysterious_Crystal();
+
+		  excalibur = new Excalibur();
 		  caliburn = new Caliburn();
 		  avalon = new Avalon();
+
 		  jadeSword = new JadeSword();
-		  excalibur = new Excalibur();
 		  jadeHoe = new JadeHoe();
 		  jadeAxe = new JadeAxe();
 		  jadePickaxe = new JadePickaxe();
 		  jadeShovel = new JadeShovel();
 
-		  GameRegistry.registerBlock(jadeBlock, "jadeblock");
-		  GameRegistry.registerBlock(jade_Ore, "jade_ore");
-		  GameRegistry.registerBlock(sapphireBlock, "sapphireblock");
-		  GameRegistry.registerBlock(sapphire_Ore, "Sapphire_Ore");
+		  sapphireSword = new SapphireSword();
+		  sapphireHoe = new SapphireHoe();
+		  sapphireAxe = new SapphireAxe();
+		  sapphirePickaxe = new SapphirePickaxe();
+		  sapphireShovel = new SapphireShovel();
+
+		  jade_Ore = new Jade_Ore();
+		  sapphire_Ore = new Sapphire_Ore();
+		  jadeBlock = new JadeBlock();
+		  sapphireBlock = new SapphireBlock();
+
 		  GameRegistry.registerItem(jade, "jade");
 		  GameRegistry.registerItem(sapphire, "sapphire");
-		  GameRegistry.registerItem(jade_Crystal, "jade_crystal");
+		  GameRegistry.registerItem(shining_Crystal, "jade_crystal");
 		  GameRegistry.registerItem(mysterious_Crystal, "mysterious_crystal");
-		  GameRegistry.registerItem(caliburn, "Caliburn");
-		  GameRegistry.registerItem(
-			  jadeHelmet = new JadeArmor("JadeHelmet", JADE_MATERIAL, "jade", 0),
-			  "JadeHelmet");
-		  GameRegistry.registerItem(
-			  jadeArmor = new JadeArmor("JadeArmor", JADE_MATERIAL, "jade", 1),
-			  "JadeArmor");
-		  GameRegistry.registerItem(
-			  jadeLeggings = new JadeArmor("JadeLeggings", JADE_MATERIAL, "jade", 2),
-			  "JadeLeggings");
-		  GameRegistry.registerItem(
-			  jadeBoots = new JadeArmor("JadeBoots", JADE_MATERIAL, "jade",3),
-			  "JadeBoots");
+
+		  // add Jade Tools
 		  GameRegistry.registerItem(jadeSword, "jadesword");
-		  GameRegistry.registerItem(avalon, "avalon");
-		  GameRegistry.registerItem(excalibur, "excalibur");
-		  GameRegistry.registerItem(jadeHoe, "jadehoe");
 		  GameRegistry.registerItem(jadePickaxe, "jadepickaxe");
-		  GameRegistry.registerItem(jadeShovel, "jadeshovel");
 		  GameRegistry.registerItem(jadeAxe, "jadeaxe");
+		  GameRegistry.registerItem(jadeHoe, "jadehoe");
+		  GameRegistry.registerItem(jadeShovel, "jadeshovel");
+
+		  // add Sapphire Tools
+		  GameRegistry.registerItem(sapphireSword, "sapphiresword");
+		  GameRegistry.registerItem(sapphirePickaxe, "sapphirepickaxe");
+		  GameRegistry.registerItem(sapphireAxe, "sapphireaxe");
+		  GameRegistry.registerItem(sapphireHoe, "sapphirehoe");
+		  GameRegistry.registerItem(sapphireShovel, "sapphireshovel");
+
+		  // add Extra Tools
+		  GameRegistry.registerItem(excalibur, "excalibur");
+		  GameRegistry.registerItem(caliburn, "Caliburn");
+		  GameRegistry.registerItem(avalon, "avalon");
+
+		  // add Jade Aromors
+		  GameRegistry.registerItem(
+				  jade_Helmet = new JadeArmor("Jade_Helmet", JADE_MATERIAL, "jade", 0),
+				  "Jade_Helmet");
+		  GameRegistry.registerItem(
+				  jade_Armor = new JadeArmor("Jade_Armor", JADE_MATERIAL, "jade", 1),
+				  "Jade_Armor");
+		  GameRegistry.registerItem(
+				  jade_Leggings = new JadeArmor("Jade_Leggings", JADE_MATERIAL, "jade", 2),
+				  "Jade_Leggings");
+		  GameRegistry.registerItem(
+				  jade_Boots = new JadeArmor("Jade_Boots", JADE_MATERIAL, "jade",3),
+				  "Jade_Boots");
+
+		  //add ores
+		  GameRegistry.registerBlock(jade_Ore, "jade_ore");
+		  GameRegistry.registerBlock(sapphire_Ore, "Sapphire_ore");
+
+		  GameRegistry.registerBlock(jadeBlock, "jadeblock");
+		  GameRegistry.registerBlock(sapphireBlock, "sapphireblock");
+
+		  //add smelting
 		  GameRegistry.addSmelting(jade_Ore, new ItemStack(jade), 1.0F);
 		  GameRegistry.addSmelting(sapphire_Ore, new ItemStack(sapphire), 1.0F);
 
 		  if (event.getSide().isClient()) {
 
-			ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(jadeBlock), 0,
-			    new ModelResourceLocation(MOD_ID + ":" + "jadeblock", "inventory"));
-			ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(jade_Ore), 0,
-				new ModelResourceLocation(MOD_ID + ":" + "jade_ore", "inventory"));
-			ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(sapphire_Ore), 0,
-				new ModelResourceLocation(MOD_ID + ":" + "sapphire_ore", "inventory"));
-			ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(sapphireBlock), 0,
-				new ModelResourceLocation(MOD_ID + ":" + "sapphireBlock", "inventory"));
 
 			ModelLoader.setCustomModelResourceLocation(jade, 0,
 				new	ModelResourceLocation(MOD_ID + ":" + "jade", "inventory"));
 			ModelLoader.setCustomModelResourceLocation(sapphire, 0,
-					new	ModelResourceLocation(MOD_ID + ":" + "sapphire", "inventory"));
-			ModelLoader.setCustomModelResourceLocation(jade_Crystal, 0,
-				new	ModelResourceLocation(MOD_ID + ":" + "jade_crystal", "inventory"));
+				new	ModelResourceLocation(MOD_ID + ":" + "sapphire", "inventory"));
+			ModelLoader.setCustomModelResourceLocation(shining_Crystal, 0,
+				new	ModelResourceLocation(MOD_ID + ":" + "shining_crystal", "inventory"));
 			ModelLoader.setCustomModelResourceLocation(mysterious_Crystal, 0,
 				new ModelResourceLocation(MOD_ID + ":" + "mysterious_crystal", "inventory"));
+
+			ModelLoader.setCustomModelResourceLocation(excalibur, 0,
+					new ModelResourceLocation(MOD_ID + ":" + "excalibur", "inventory"));
+			ModelLoader.setCustomModelResourceLocation(avalon, 0,
+					new ModelResourceLocation(MOD_ID + ":" + "avalon", "inventory"));
 			ModelLoader.setCustomModelResourceLocation(caliburn, 0,
 				new ModelResourceLocation(MOD_ID + ":" + "caliburn", "inventory"));
 
-			ModelLoader.setCustomModelResourceLocation(jadeHelmet, 0,
-				new	ModelResourceLocation(MOD_ID + ":" + "jadehelmet", "inventory"));
-			ModelLoader.setCustomModelResourceLocation(jadeArmor, 0,
-				new	ModelResourceLocation(MOD_ID + ":" + "jadearmor", "inventory"));
-			ModelLoader.setCustomModelResourceLocation(jadeLeggings, 0,
-				new	ModelResourceLocation(MOD_ID + ":" + "jadeleggings", "inventory"));
-			ModelLoader.setCustomModelResourceLocation(jadeBoots, 0,
-				new	ModelResourceLocation(MOD_ID + ":" + "jadeboots", "inventory"));
+			ModelLoader.setCustomModelResourceLocation(jade_Helmet, 0,
+				new	ModelResourceLocation(MOD_ID + ":" + "jade_helmet", "inventory"));
+			ModelLoader.setCustomModelResourceLocation(jade_Armor, 0,
+				new	ModelResourceLocation(MOD_ID + ":" + "jade_armor", "inventory"));
+			ModelLoader.setCustomModelResourceLocation(jade_Leggings, 0,
+				new	ModelResourceLocation(MOD_ID + ":" + "jade_leggings", "inventory"));
+			ModelLoader.setCustomModelResourceLocation(jade_Boots, 0,
+				new	ModelResourceLocation(MOD_ID + ":" + "jade_boots", "inventory"));
+
 			ModelLoader.setCustomModelResourceLocation(jadeSword, 0,
 				new ModelResourceLocation(MOD_ID + ":" + "jadesword", "inventory"));
-			ModelLoader.setCustomModelResourceLocation(avalon, 0,
-					new ModelResourceLocation(MOD_ID + ":" + "avalon", "inventory"));
-			ModelLoader.setCustomModelResourceLocation(excalibur, 0,
-				new ModelResourceLocation(MOD_ID + ":" + "excalibur", "inventory"));
-			ModelLoader.setCustomModelResourceLocation(jadeHoe, 0,
-				new ModelResourceLocation(MOD_ID + ":" + "jadehoe", "inventory"));
 			ModelLoader.setCustomModelResourceLocation(jadePickaxe, 0,
-				new ModelResourceLocation(MOD_ID + ":" + "jadepickaxe", "inventory"));
-			ModelLoader.setCustomModelResourceLocation(jadeShovel, 0,
-				new ModelResourceLocation(MOD_ID + ":" + "jadeshovel", "inventory"));
+					new ModelResourceLocation(MOD_ID + ":" + "jadepickaxe", "inventory"));
 			ModelLoader.setCustomModelResourceLocation(jadeAxe, 0,
-				new ModelResourceLocation(MOD_ID + ":" + "jadeaxe", "inventory"));
+					new ModelResourceLocation(MOD_ID + ":" + "jadeaxe", "inventory"));
+			ModelLoader.setCustomModelResourceLocation(jadeHoe, 0,
+					new ModelResourceLocation(MOD_ID + ":" + "jadehoe", "inventory"));
+			ModelLoader.setCustomModelResourceLocation(jadeShovel, 0,
+					new ModelResourceLocation(MOD_ID + ":" + "jadeshovel", "inventory"));
+
+			ModelLoader.setCustomModelResourceLocation(sapphireSword, 0,
+				new ModelResourceLocation(MOD_ID + ":" + "sapphiresword", "inventory"));
+			ModelLoader.setCustomModelResourceLocation(sapphirePickaxe, 0,
+				new ModelResourceLocation(MOD_ID + ":" + "sapphirepickaxe", "inventory"));
+			ModelLoader.setCustomModelResourceLocation(sapphireAxe, 0,
+				new ModelResourceLocation(MOD_ID + ":" + "sapphireaxe", "inventory"));
+			ModelLoader.setCustomModelResourceLocation(sapphireHoe, 0,
+					new ModelResourceLocation(MOD_ID + ":" + "sapphirehoe", "inventory"));
+			ModelLoader.setCustomModelResourceLocation(sapphireShovel, 0,
+				new ModelResourceLocation(MOD_ID + ":" + "sapphireshovel", "inventory"));
+
+			ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(jade_Ore), 0,
+					new ModelResourceLocation(MOD_ID + ":" + "jade_ore", "inventory"));
+			ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(sapphire_Ore), 0,
+					new ModelResourceLocation(MOD_ID + ":" + "sapphire_ore", "inventory"));
+			ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(jadeBlock), 0,
+					new ModelResourceLocation(MOD_ID + ":" + "jadeblock", "inventory"));
+			ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(sapphireBlock), 0,
+					new ModelResourceLocation(MOD_ID + ":" + "sapphireblock", "inventory"));
 		  }
 		}
 
@@ -262,7 +319,7 @@ public class JadeCraftCore {
 			   'J', jade);
 	  }
  if (!hardmode) {
-	 GameRegistry.addRecipe(new ItemStack(jade_Crystal, 1),
+	 GameRegistry.addRecipe(new ItemStack(shining_Crystal, 1),
 			   "DJD",
 			   "JNJ",
 			   "DJD",
@@ -271,7 +328,7 @@ public class JadeCraftCore {
 			   'J', jade);
  }
  if (hardmode) {
-	 GameRegistry.addRecipe(new ItemStack(jade_Crystal, 1),
+	 GameRegistry.addRecipe(new ItemStack(shining_Crystal, 1),
 			   "MDM",
 			   "DJD",
 			   "MDM",
@@ -284,24 +341,24 @@ public class JadeCraftCore {
 		   "###",
 		   "###",
 		   '#', jade);
-GameRegistry.addRecipe(new ItemStack(jadeHelmet),
+GameRegistry.addRecipe(new ItemStack(jade_Helmet),
 		   "   ",
 		   "JJJ",
 		   "J J",
 		   'J', jade);
 GameRegistry.addShapelessRecipe(new ItemStack(jade, 9),
 		   jadeBlock);
-GameRegistry.addRecipe(new ItemStack(jadeArmor),
+GameRegistry.addRecipe(new ItemStack(jade_Armor),
 		   "J J",
 		   "JJJ",
 		   "JJJ",
 		   'J', jade);
-GameRegistry.addRecipe(new ItemStack(jadeLeggings),
+GameRegistry.addRecipe(new ItemStack(jade_Leggings),
 		   "JJJ",
 		   "J J",
 		   "J J",
 		   'J', jade);
-GameRegistry.addRecipe(new ItemStack(jadeBoots),
+GameRegistry.addRecipe(new ItemStack(jade_Boots),
 		   "   ",
 		   "J J",
 		   "J J",

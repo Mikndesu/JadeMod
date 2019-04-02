@@ -24,10 +24,10 @@ public class JadeArmor extends ItemArmor {
 	@Override
 	public String getItemStackDisplayName(ItemStack itemstack) {
 		String armorName = itemstack.getUnlocalizedName();
-		String RegexArmor = "JadeArmor";
-		String RegexLegg = "JadeLeggings";
-		String RegexHelm = "JadeHelm";
-		String RegexBoots = "JadeBoots";
+		String RegexArmor = "Jade_Armor";
+		String RegexLegg = "Jade_Leggings";
+		String RegexHelm = "Jade_Helm";
+		String RegexBoots = "Jade_Boots";
 
 		Pattern ArmorPat = Pattern.compile(RegexArmor);
 		Pattern LeggPat = Pattern.compile(RegexLegg);
@@ -40,13 +40,13 @@ public class JadeArmor extends ItemArmor {
 		Matcher Boots = BootsPat.matcher(armorName);
 
 		if (Armor.find())
-			return "JadeArmor";
+			return "Jade_Armor";
 		if (Boots.find())
-			return "JadeBoots";
+			return "Jade_Boots";
 		if (Helm.find())
-			return "JadeHelm";
+			return "Jade_Helm";
 		if (Legg.find())
-			return "JadeLeggings";
+			return "Jade_Leggings";
 
 		return "UnKnown";
 	}

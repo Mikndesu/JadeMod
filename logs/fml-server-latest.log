@@ -1,300 +1,262 @@
-[20:24:46] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
-[20:24:46] [main/INFO] [FML/]: Forge Mod Loader version 11.15.1.2318 for Minecraft 1.8.9 loading
-[20:24:46] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_162, running on Mac OS X:x86_64:10.13.5, installed at /Applications/Eclipse_4.8.0.app/Contents/java/8/Home/jre
-[20:24:46] [main/DEBUG] [FML/]: Java classpath at launch is /Applications/Eclipse_4.8.0.app/Contents/java/8/Home/jre/lib/resources.jar:/Applications/Eclipse_4.8.0.app/Contents/java/8/Home/jre/lib/rt.jar:/Applications/Eclipse_4.8.0.app/Contents/java/8/Home/jre/lib/jsse.jar:/Applications/Eclipse_4.8.0.app/Contents/java/8/Home/jre/lib/jce.jar:/Applications/Eclipse_4.8.0.app/Contents/java/8/Home/jre/lib/charsets.jar:/Applications/Eclipse_4.8.0.app/Contents/java/8/Home/jre/lib/jfr.jar:/Applications/Eclipse_4.8.0.app/Contents/java/8/Home/jre/lib/ext/sunec.jar:/Applications/Eclipse_4.8.0.app/Contents/java/8/Home/jre/lib/ext/nashorn.jar:/Applications/Eclipse_4.8.0.app/Contents/java/8/Home/jre/lib/ext/cldrdata.jar:/Applications/Eclipse_4.8.0.app/Contents/java/8/Home/jre/lib/ext/jfxrt.jar:/Applications/Eclipse_4.8.0.app/Contents/java/8/Home/jre/lib/ext/dnsns.jar:/Applications/Eclipse_4.8.0.app/Contents/java/8/Home/jre/lib/ext/localedata.jar:/Applications/Eclipse_4.8.0.app/Contents/java/8/Home/jre/lib/ext/sunjce_provider.jar:/Applications/Eclipse_4.8.0.app/Contents/java/8/Home/jre/lib/ext/sunpkcs11.jar:/Applications/Eclipse_4.8.0.app/Contents/java/8/Home/jre/lib/ext/jaccess.jar:/Applications/Eclipse_4.8.0.app/Contents/java/8/Home/jre/lib/ext/zipfs.jar:/Users/Mi/Desktop/forge-1.8.9-11.15.1.2318-1.8.9-mdk/bin:/Users/mitsuki/.gradle/caches/minecraft/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/stable/20/forgeSrc-1.8.9-11.15.1.2318-1.8.9.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.mojang/netty/1.6/4b75825a06139752bd800d9e29c5fd55b8b1b1e4/netty-1.6.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/oshi-project/oshi-core/1.1/9ddf7b048a8d701be231c0f4f95fd986198fd2d8/oshi-core-1.1.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/3.4.0/803ff252fedbd395baffd43b37341dc4a150a554/jna-3.4.0.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/platform/3.4.0/e3f70017be8100d3d6923f50b3d2ee17714e9c13/platform-3.4.0.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j-core-mojang/51.2/63d216a9311cca6be337c1e458e587f99d382b84/icu4j-core-mojang-51.2.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/4.6/306816fb57cf94f108a43c95731b08934dcae15c/jopt-simple-4.6.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.0.23.Final/294104aaf1781d6a56a07d561e792c5d0c95f45/netty-all-4.0.23.Final.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/17.0/9c6ef172e8de35fd8d4d8783e4821e57cdef7445/guava-17.0.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/net.java.jutils/jutils/1.0.0/e12fe1fda814bd348c1579329c86943d2cd3c6a6/jutils-1.0.0.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/1.5.21/aefba0d5b53fbcb70860bc8046ab95d5854c07a5/authlib-1.5.21.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.mojang/realms/1.7.59/9c6c59b742d8e038a15f64c1aa273a893a658424/realms-1.7.59.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.8.1/a698750c16740fd5b3871425f4cb3bbaa87f529d/commons-compress-1.8.1.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/18f4247ff4572a074444572cee34647c43e7c9c7/httpclient-4.3.3.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e/httpcore-4.3.2.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.0-beta9/1dd66e68cccd907880229f9e2de1314bd13ff785/log4j-api-2.0-beta9.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.0-beta9/678861ba1b2e1fccb594bb0ca03114bb05da9695/log4j-core-2.0-beta9.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/1.12/111e7bea9c968cdb3d06ef4632bf7ff0824d0f36/launchwrapper-1.12.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/jline/jline/2.13/2d9530d0a25daffaffda7c35037b046b627bb171/jline-2.13.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/5.0.3/f9e364ae2a66ce2a543012a4668856e84e5dab74/asm-debug-all-5.0.3.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-actor_2.11/2.3.3/ed62e9fc709ca0f2ff1a3220daa8b70a2870078e/akka-actor_2.11-2.3.3.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.2.1/f771f71fdae3df231bcd54d5ca2d57f0bf93f467/config-1.2.1.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors-migration_2.11/1.1.0/dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f/scala-actors-migration_2.11-1.1.0.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-compiler/2.11.1/56ea2e6c025e0821f28d73ca271218b8dd04926a/scala-compiler-2.11.1.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-library_2.11/1.0.2/e517c53a7e9acd6b1668c5a35eccbaa3bab9aac/scala-continuations-library_2.11-1.0.2.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-plugin_2.11.1/1.0.2/f361a3283452c57fa30c1ee69448995de23c60f7/scala-continuations-plugin_2.11.1-1.0.2.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.1/e11da23da3eabab9f4777b9220e60d44c1aab6a/scala-library-2.11.1.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.1/f05d7345bf5a58924f2837c6c1f4d73a938e1ff0/scala-parser-combinators_2.11-1.0.1.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.11.1/6580347e61cc7f8e802941e7fde40fa83b8badeb/scala-reflect-2.11.1.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-swing_2.11/1.0.1/b1cdd92bd47b1e1837139c1c53020e86bb9112ae/scala-swing_2.11-1.0.1.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.11/1.0.2/820fbca7e524b530fdadc594c39d49a21ea0337e/scala-xml_2.11-1.0.2.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/lzma/lzma/0.0.1/521616dc7487b42bef0e803bd2fa3faf668101d7/lzma-0.0.1.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/net.sf.trove4j/trove4j/3.0.3/42ccaf4761f0dfdfa805c9e340d99a755907e2dd/trove4j-3.0.3.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.paulscode/codecjorbis/20101023/c73b5636faf089d9f00e8732a829577de25237ee/codecjorbis-20101023.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.paulscode/codecwav/20101023/12f031cfe88fef5c1dd36c563c0a3a69bd7261da/codecwav-20101023.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.paulscode/libraryjavasound/20101123/5c5e304366f75f9eaa2e8cca546a1fb6109348b3/libraryjavasound-20101123.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.paulscode/librarylwjglopenal/20100824/73e80d0794c39665aec3f62eee88ca91676674ef/librarylwjglopenal-20100824.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.paulscode/soundsystem/20120107/419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6/soundsystem-20120107.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.2-nightly-20140822/7707204c9ffa5d91662de95f0a224e2f721b22af/lwjgl-2.9.2-nightly-20140822.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl_util/2.9.2-nightly-20140822/f0e612c840a7639c1f77f68d72a28dae2f0c8490/lwjgl_util-2.9.2-nightly-20140822.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch/6.5/320a2dfd18513a5f41b4e75729df684488cbd925/twitch-6.5.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/java3d/vecmath/1.5.2/79846ba34cbd89e2422d74d53752f993dcc2ccaf/vecmath-1.5.2.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.fusesource.jansi/jansi/1.11/655c643309c2f45a56a747fda70e3fadf57e9f11/jansi-1.11.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors/2.11.0/8ccfb6541de179bb1c4d45cf414acee069b7f78b/scala-actors-2.11.0.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/7ff832a6eb9ab6a767f1ade2b548092d0fa64795/jinput-platform-2.0.5-natives-linux.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/385ee093e01f587f30ee1c8a2ee7d408fd732e16/jinput-platform-2.0.5-natives-windows.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/53f9c919f34d2ca9de8c51fc4e1e8282029a9232/jinput-platform-2.0.5-natives-osx.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/206c4ccaecdbcfd2a1631150c69a97bbc9c20c11/twitch-platform-6.5-natives-windows-32.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/9fdd0fd5aed0817063dcf95b69349a171f447ebd/twitch-platform-6.5-natives-windows-64.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/5f9d1ee26257b3a33f0ca06fed335ef462af659f/twitch-platform-6.5-natives-osx.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-external-platform/4.5/18215140f010c05b9f86ef6f0f8871954d2ccebf/twitch-external-platform-4.5-natives-windows-32.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-external-platform/4.5/c3cde57891b935d41b6680a9c5e1502eeab76d86/twitch-external-platform-4.5-natives-windows-64.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2-nightly-20140822/78b2a55ce4dc29c6b3ec4df8ca165eba05f9b341/lwjgl-platform-2.9.2-nightly-20140822-natives-windows.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2-nightly-20140822/d898a33b5d0a6ef3fed3a4ead506566dce6720a5/lwjgl-platform-2.9.2-nightly-20140822-natives-linux.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2-nightly-20140822/79f5ce2fea02e77fe47a3c745219167a542121d7/lwjgl-platform-2.9.2-nightly-20140822-natives-osx.jar:/Users/mitsuki/.gradle/caches/minecraft/deobfedDeps/compileDummy.jar:/Users/mitsuki/.gradle/caches/minecraft/deobfedDeps/providedDummy.jar:/Users/mitsuki/.gradle/caches/minecraft/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/start
-[20:24:46] [main/DEBUG] [FML/]: Java library path at launch is /Users/Mi/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
-[20:24:46] [main/INFO] [FML/]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[20:24:46] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
-[20:24:46] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
-[20:24:46] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
-[20:24:46] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
-[20:24:46] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
-[20:24:46] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
-[20:24:46] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to /Users/Mi/Desktop/forge-1.8.9-11.15.1.2318-1.8.9-mdk/.
-[20:24:46] [main/DEBUG] [FML/]: Discovering coremods
-[20:24:46] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[20:24:46] [main/INFO] [GradleStart/]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
-[20:24:46] [main/INFO] [GradleStart/]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[20:24:46] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[20:24:46] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[20:24:46] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[20:24:46] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[20:24:46] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[20:24:46] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[20:24:46] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin} class transformers
-[20:24:46] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.BlamingTransformer
-[20:24:46] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
-[20:24:46] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
-[20:24:46] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
-[20:24:46] [main/DEBUG] [FML/]: Injection complete
-[20:24:46] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin}
-[20:24:46] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
-[20:24:46] [main/ERROR] [FML/]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
-[20:24:47] [main/DEBUG] [FML/]: Loading deobfuscation resource /Users/mitsuki/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_stable/20/srgs/srg-mcp.srg with 27884 records
-[20:24:48] [main/ERROR] [FML/]: FML appears to be missing any signature data. This is not a good thing
-[20:24:48] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
-[20:24:48] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[20:24:48] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
-[20:24:48] [main/DEBUG] [FML/]: Injection complete
-[20:24:48] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
-[20:24:48] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
-[20:24:48] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
-[20:24:48] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[20:24:48] [main/DEBUG] [FML/]: Loaded 165 rules from AccessTransformer config file forge_at.cfg
-[20:24:48] [main/DEBUG] [FML/]: Validating minecraft
-[20:24:49] [main/DEBUG] [FML/]: Minecraft validated, launching...
-[20:24:49] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[20:24:49] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[20:24:49] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[20:24:50] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[20:25:06] [Server thread/INFO] [FML/]: MinecraftForge v11.15.1.2318 Initialized
-[20:25:06] [Server thread/INFO] [FML/]: Replaced 229 ore recipies
-[20:25:07] [Server thread/DEBUG] [FML/]: File /Users/Mi/Desktop/forge-1.8.9-11.15.1.2318-1.8.9-mdk/config/injectedDependencies.json not found. No dependencies injected
-[20:25:07] [Server thread/DEBUG] [FML/]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
-[20:25:07] [Server thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
-[20:25:07] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Applications/Eclipse_4.8.0.app/Contents/java/8/Home/jre/lib/resources.jar, examining for mod candidates
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Applications/Eclipse_4.8.0.app/Contents/java/8/Home/jre/lib/rt.jar
-[20:25:07] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Applications/Eclipse_4.8.0.app/Contents/java/8/Home/jre/lib/jsse.jar, examining for mod candidates
-[20:25:07] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Applications/Eclipse_4.8.0.app/Contents/java/8/Home/jre/lib/jce.jar, examining for mod candidates
-[20:25:07] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Applications/Eclipse_4.8.0.app/Contents/java/8/Home/jre/lib/charsets.jar, examining for mod candidates
-[20:25:07] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Applications/Eclipse_4.8.0.app/Contents/java/8/Home/jre/lib/jfr.jar, examining for mod candidates
-[20:25:07] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Applications/Eclipse_4.8.0.app/Contents/java/8/Home/jre/lib/ext/sunec.jar, examining for mod candidates
-[20:25:07] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Applications/Eclipse_4.8.0.app/Contents/java/8/Home/jre/lib/ext/nashorn.jar, examining for mod candidates
-[20:25:07] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Applications/Eclipse_4.8.0.app/Contents/java/8/Home/jre/lib/ext/cldrdata.jar, examining for mod candidates
-[20:25:07] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Applications/Eclipse_4.8.0.app/Contents/java/8/Home/jre/lib/ext/jfxrt.jar, examining for mod candidates
-[20:25:07] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Applications/Eclipse_4.8.0.app/Contents/java/8/Home/jre/lib/ext/dnsns.jar, examining for mod candidates
-[20:25:07] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Applications/Eclipse_4.8.0.app/Contents/java/8/Home/jre/lib/ext/localedata.jar, examining for mod candidates
-[20:25:07] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Applications/Eclipse_4.8.0.app/Contents/java/8/Home/jre/lib/ext/sunjce_provider.jar, examining for mod candidates
-[20:25:07] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Applications/Eclipse_4.8.0.app/Contents/java/8/Home/jre/lib/ext/sunpkcs11.jar, examining for mod candidates
-[20:25:07] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Applications/Eclipse_4.8.0.app/Contents/java/8/Home/jre/lib/ext/jaccess.jar, examining for mod candidates
-[20:25:07] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Applications/Eclipse_4.8.0.app/Contents/java/8/Home/jre/lib/ext/zipfs.jar, examining for mod candidates
-[20:25:07] [Server thread/DEBUG] [FML/]: Found a minecraft related directory at /Users/Mi/Desktop/forge-1.8.9-11.15.1.2318-1.8.9-mdk/bin, examining for mod candidates
-[20:25:07] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Users/mitsuki/.gradle/caches/minecraft/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/stable/20/forgeSrc-1.8.9-11.15.1.2318-1.8.9.jar, examining for mod candidates
-[20:25:07] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.mojang/netty/1.6/4b75825a06139752bd800d9e29c5fd55b8b1b1e4/netty-1.6.jar, examining for mod candidates
-[20:25:07] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Users/mitsuki/.gradle/caches/modules-2/files-2.1/oshi-project/oshi-core/1.1/9ddf7b048a8d701be231c0f4f95fd986198fd2d8/oshi-core-1.1.jar, examining for mod candidates
-[20:25:07] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Users/mitsuki/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/3.4.0/803ff252fedbd395baffd43b37341dc4a150a554/jna-3.4.0.jar, examining for mod candidates
-[20:25:07] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Users/mitsuki/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/platform/3.4.0/e3f70017be8100d3d6923f50b3d2ee17714e9c13/platform-3.4.0.jar, examining for mod candidates
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j-core-mojang/51.2/63d216a9311cca6be337c1e458e587f99d382b84/icu4j-core-mojang-51.2.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/4.6/306816fb57cf94f108a43c95731b08934dcae15c/jopt-simple-4.6.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.0.23.Final/294104aaf1781d6a56a07d561e792c5d0c95f45/netty-all-4.0.23.Final.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/17.0/9c6ef172e8de35fd8d4d8783e4821e57cdef7445/guava-17.0.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/net.java.jutils/jutils/1.0.0/e12fe1fda814bd348c1579329c86943d2cd3c6a6/jutils-1.0.0.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/1.5.21/aefba0d5b53fbcb70860bc8046ab95d5854c07a5/authlib-1.5.21.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.mojang/realms/1.7.59/9c6c59b742d8e038a15f64c1aa273a893a658424/realms-1.7.59.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.8.1/a698750c16740fd5b3871425f4cb3bbaa87f529d/commons-compress-1.8.1.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/18f4247ff4572a074444572cee34647c43e7c9c7/httpclient-4.3.3.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e/httpcore-4.3.2.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.0-beta9/1dd66e68cccd907880229f9e2de1314bd13ff785/log4j-api-2.0-beta9.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.0-beta9/678861ba1b2e1fccb594bb0ca03114bb05da9695/log4j-core-2.0-beta9.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/1.12/111e7bea9c968cdb3d06ef4632bf7ff0824d0f36/launchwrapper-1.12.jar
-[20:25:07] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Users/mitsuki/.gradle/caches/modules-2/files-2.1/jline/jline/2.13/2d9530d0a25daffaffda7c35037b046b627bb171/jline-2.13.jar, examining for mod candidates
-[20:25:07] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/5.0.3/f9e364ae2a66ce2a543012a4668856e84e5dab74/asm-debug-all-5.0.3.jar, examining for mod candidates
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-actor_2.11/2.3.3/ed62e9fc709ca0f2ff1a3220daa8b70a2870078e/akka-actor_2.11-2.3.3.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.2.1/f771f71fdae3df231bcd54d5ca2d57f0bf93f467/config-1.2.1.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors-migration_2.11/1.1.0/dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f/scala-actors-migration_2.11-1.1.0.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-compiler/2.11.1/56ea2e6c025e0821f28d73ca271218b8dd04926a/scala-compiler-2.11.1.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-library_2.11/1.0.2/e517c53a7e9acd6b1668c5a35eccbaa3bab9aac/scala-continuations-library_2.11-1.0.2.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-plugin_2.11.1/1.0.2/f361a3283452c57fa30c1ee69448995de23c60f7/scala-continuations-plugin_2.11.1-1.0.2.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.1/e11da23da3eabab9f4777b9220e60d44c1aab6a/scala-library-2.11.1.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.1/f05d7345bf5a58924f2837c6c1f4d73a938e1ff0/scala-parser-combinators_2.11-1.0.1.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.11.1/6580347e61cc7f8e802941e7fde40fa83b8badeb/scala-reflect-2.11.1.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-swing_2.11/1.0.1/b1cdd92bd47b1e1837139c1c53020e86bb9112ae/scala-swing_2.11-1.0.1.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.11/1.0.2/820fbca7e524b530fdadc594c39d49a21ea0337e/scala-xml_2.11-1.0.2.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/lzma/lzma/0.0.1/521616dc7487b42bef0e803bd2fa3faf668101d7/lzma-0.0.1.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/net.sf.trove4j/trove4j/3.0.3/42ccaf4761f0dfdfa805c9e340d99a755907e2dd/trove4j-3.0.3.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.paulscode/codecjorbis/20101023/c73b5636faf089d9f00e8732a829577de25237ee/codecjorbis-20101023.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.paulscode/codecwav/20101023/12f031cfe88fef5c1dd36c563c0a3a69bd7261da/codecwav-20101023.jar
-[20:25:07] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.paulscode/libraryjavasound/20101123/5c5e304366f75f9eaa2e8cca546a1fb6109348b3/libraryjavasound-20101123.jar, examining for mod candidates
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.paulscode/librarylwjglopenal/20100824/73e80d0794c39665aec3f62eee88ca91676674ef/librarylwjglopenal-20100824.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.paulscode/soundsystem/20120107/419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6/soundsystem-20120107.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.2-nightly-20140822/7707204c9ffa5d91662de95f0a224e2f721b22af/lwjgl-2.9.2-nightly-20140822.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl_util/2.9.2-nightly-20140822/f0e612c840a7639c1f77f68d72a28dae2f0c8490/lwjgl_util-2.9.2-nightly-20140822.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch/6.5/320a2dfd18513a5f41b4e75729df684488cbd925/twitch-6.5.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/java3d/vecmath/1.5.2/79846ba34cbd89e2422d74d53752f993dcc2ccaf/vecmath-1.5.2.jar
-[20:25:07] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.fusesource.jansi/jansi/1.11/655c643309c2f45a56a747fda70e3fadf57e9f11/jansi-1.11.jar, examining for mod candidates
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors/2.11.0/8ccfb6541de179bb1c4d45cf414acee069b7f78b/scala-actors-2.11.0.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/7ff832a6eb9ab6a767f1ade2b548092d0fa64795/jinput-platform-2.0.5-natives-linux.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/385ee093e01f587f30ee1c8a2ee7d408fd732e16/jinput-platform-2.0.5-natives-windows.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/53f9c919f34d2ca9de8c51fc4e1e8282029a9232/jinput-platform-2.0.5-natives-osx.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/206c4ccaecdbcfd2a1631150c69a97bbc9c20c11/twitch-platform-6.5-natives-windows-32.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/9fdd0fd5aed0817063dcf95b69349a171f447ebd/twitch-platform-6.5-natives-windows-64.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/5f9d1ee26257b3a33f0ca06fed335ef462af659f/twitch-platform-6.5-natives-osx.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-external-platform/4.5/18215140f010c05b9f86ef6f0f8871954d2ccebf/twitch-external-platform-4.5-natives-windows-32.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-external-platform/4.5/c3cde57891b935d41b6680a9c5e1502eeab76d86/twitch-external-platform-4.5-natives-windows-64.jar
-[20:25:07] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar, examining for mod candidates
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2-nightly-20140822/78b2a55ce4dc29c6b3ec4df8ca165eba05f9b341/lwjgl-platform-2.9.2-nightly-20140822-natives-windows.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2-nightly-20140822/d898a33b5d0a6ef3fed3a4ead506566dce6720a5/lwjgl-platform-2.9.2-nightly-20140822-natives-linux.jar
-[20:25:07] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2-nightly-20140822/79f5ce2fea02e77fe47a3c745219167a542121d7/lwjgl-platform-2.9.2-nightly-20140822-natives-osx.jar
-[20:25:07] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Users/mitsuki/.gradle/caches/minecraft/deobfedDeps/compileDummy.jar, examining for mod candidates
-[20:25:07] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Users/mitsuki/.gradle/caches/minecraft/deobfedDeps/providedDummy.jar, examining for mod candidates
-[20:25:07] [Server thread/DEBUG] [FML/]: Found a minecraft related directory at /Users/mitsuki/.gradle/caches/minecraft/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/start, examining for mod candidates
-[20:25:07] [Server thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
-[20:25:07] [Server thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
-[20:25:07] [Server thread/INFO] [FML/]: Searching /Users/Mi/Desktop/forge-1.8.9-11.15.1.2318-1.8.9-mdk/mods for mods
-[20:25:07] [Server thread/DEBUG] [FML/]: Ignoring unknown file .DS_Store in mods directory
-[20:25:07] [Server thread/DEBUG] [FML/]: Examining file resources.jar for potential mods
-[20:25:07] [Server thread/DEBUG] [FML/]: The mod container resources.jar appears to be missing an mcmod.info file
-[20:25:07] [Server thread/DEBUG] [FML/]: Examining file jsse.jar for potential mods
-[20:25:07] [Server thread/DEBUG] [FML/]: The mod container jsse.jar appears to be missing an mcmod.info file
-[20:25:08] [Server thread/DEBUG] [FML/]: Examining file jce.jar for potential mods
-[20:25:08] [Server thread/DEBUG] [FML/]: The mod container jce.jar appears to be missing an mcmod.info file
-[20:25:08] [Server thread/DEBUG] [FML/]: Examining file charsets.jar for potential mods
-[20:25:08] [Server thread/DEBUG] [FML/]: The mod container charsets.jar appears to be missing an mcmod.info file
-[20:25:08] [Server thread/DEBUG] [FML/]: Examining file jfr.jar for potential mods
-[20:25:08] [Server thread/DEBUG] [FML/]: The mod container jfr.jar appears to be missing an mcmod.info file
-[20:25:08] [Server thread/DEBUG] [FML/]: Examining file sunec.jar for potential mods
-[20:25:08] [Server thread/DEBUG] [FML/]: The mod container sunec.jar appears to be missing an mcmod.info file
-[20:25:08] [Server thread/DEBUG] [FML/]: Examining file nashorn.jar for potential mods
-[20:25:08] [Server thread/DEBUG] [FML/]: The mod container nashorn.jar appears to be missing an mcmod.info file
-[20:25:09] [Server thread/DEBUG] [FML/]: Examining file cldrdata.jar for potential mods
-[20:25:09] [Server thread/DEBUG] [FML/]: The mod container cldrdata.jar appears to be missing an mcmod.info file
-[20:25:09] [Server thread/DEBUG] [FML/]: Examining file jfxrt.jar for potential mods
-[20:25:09] [Server thread/DEBUG] [FML/]: The mod container jfxrt.jar appears to be missing an mcmod.info file
-[20:25:11] [Server thread/DEBUG] [FML/]: Examining file dnsns.jar for potential mods
-[20:25:11] [Server thread/DEBUG] [FML/]: The mod container dnsns.jar appears to be missing an mcmod.info file
-[20:25:11] [Server thread/DEBUG] [FML/]: Examining file localedata.jar for potential mods
-[20:25:11] [Server thread/DEBUG] [FML/]: The mod container localedata.jar appears to be missing an mcmod.info file
-[20:25:11] [Server thread/DEBUG] [FML/]: Examining file sunjce_provider.jar for potential mods
-[20:25:11] [Server thread/DEBUG] [FML/]: The mod container sunjce_provider.jar appears to be missing an mcmod.info file
-[20:25:11] [Server thread/DEBUG] [FML/]: Examining file sunpkcs11.jar for potential mods
-[20:25:11] [Server thread/DEBUG] [FML/]: The mod container sunpkcs11.jar appears to be missing an mcmod.info file
-[20:25:11] [Server thread/DEBUG] [FML/]: Examining file jaccess.jar for potential mods
-[20:25:11] [Server thread/DEBUG] [FML/]: The mod container jaccess.jar appears to be missing an mcmod.info file
-[20:25:11] [Server thread/DEBUG] [FML/]: Examining file zipfs.jar for potential mods
-[20:25:11] [Server thread/DEBUG] [FML/]: The mod container zipfs.jar appears to be missing an mcmod.info file
-[20:25:11] [Server thread/DEBUG] [FML/]: Examining directory bin for potential mods
-[20:25:11] [Server thread/DEBUG] [FML/]: Found an mcmod.info file in directory bin
-[20:25:11] [Server thread/TRACE] [FML/]: Recursing into package assets
-[20:25:11] [Server thread/TRACE] [FML/]: Recursing into package assets.jadecraft
-[20:25:11] [Server thread/TRACE] [FML/]: Recursing into package assets.jadecraft.blockstates
-[20:25:11] [Server thread/TRACE] [FML/]: Recursing into package assets.jadecraft.lang
-[20:25:11] [Server thread/TRACE] [FML/]: Recursing into package assets.jadecraft.models
-[20:25:11] [Server thread/TRACE] [FML/]: Recursing into package assets.jadecraft.models.block
-[20:25:11] [Server thread/TRACE] [FML/]: Recursing into package assets.jadecraft.models.item
-[20:25:11] [Server thread/TRACE] [FML/]: Recursing into package assets.jadecraft.textures
-[20:25:11] [Server thread/TRACE] [FML/]: Recursing into package assets.jadecraft.textures.armor
-[20:25:11] [Server thread/TRACE] [FML/]: Recursing into package assets.jadecraft.textures.blocks
-[20:25:11] [Server thread/TRACE] [FML/]: Recursing into package assets.jadecraft.textures.items
-[20:25:11] [Server thread/TRACE] [FML/]: Recursing into package in
-[20:25:11] [Server thread/TRACE] [FML/]: Recursing into package in.mitsuki
-[20:25:11] [Server thread/TRACE] [FML/]: Recursing into package in.mitsuki.JadeCraft
-[20:25:11] [Server thread/TRACE] [FML/]: Recursing into package in.mitsuki.JadeCraft.Aromors
-[20:25:11] [Server thread/TRACE] [FML/]: Recursing into package in.mitsuki.JadeCraft.Blocks
-[20:25:11] [Server thread/TRACE] [FML/]: Recursing into package in.mitsuki.JadeCraft.Dimension
-[20:25:11] [Server thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (in.mitsuki.JadeCraft.JadeCraft) - loading
-[20:25:11] [Server thread/TRACE] [JadeCraft/]: Parsed dependency info : [Forge@[1.8.9-11.15.1.2318,)] [Forge@[1.8.9-11.15.1.2318,)] []
-[20:25:11] [Server thread/TRACE] [FML/]: Recursing into package in.mitsuki.JadeCraft.Tools
-[20:25:11] [Server thread/TRACE] [FML/]: Recursing into package in.mitsuki.JadeCraft.items
-[20:25:11] [Server thread/DEBUG] [FML/]: Examining file forgeSrc-1.8.9-11.15.1.2318-1.8.9.jar for potential mods
-[20:25:11] [Server thread/DEBUG] [FML/]: The mod container forgeSrc-1.8.9-11.15.1.2318-1.8.9.jar appears to be missing an mcmod.info file
-[20:25:13] [Server thread/DEBUG] [FML/]: Examining file netty-1.6.jar for potential mods
-[20:25:13] [Server thread/DEBUG] [FML/]: The mod container netty-1.6.jar appears to be missing an mcmod.info file
-[20:25:13] [Server thread/DEBUG] [FML/]: Examining file oshi-core-1.1.jar for potential mods
-[20:25:13] [Server thread/DEBUG] [FML/]: The mod container oshi-core-1.1.jar appears to be missing an mcmod.info file
-[20:25:13] [Server thread/DEBUG] [FML/]: Examining file jna-3.4.0.jar for potential mods
-[20:25:13] [Server thread/DEBUG] [FML/]: The mod container jna-3.4.0.jar appears to be missing an mcmod.info file
-[20:25:13] [Server thread/DEBUG] [FML/]: Examining file platform-3.4.0.jar for potential mods
-[20:25:13] [Server thread/DEBUG] [FML/]: The mod container platform-3.4.0.jar appears to be missing an mcmod.info file
-[20:25:13] [Server thread/DEBUG] [FML/]: Examining file jline-2.13.jar for potential mods
-[20:25:13] [Server thread/DEBUG] [FML/]: The mod container jline-2.13.jar appears to be missing an mcmod.info file
-[20:25:13] [Server thread/DEBUG] [FML/]: Examining file asm-debug-all-5.0.3.jar for potential mods
-[20:25:13] [Server thread/DEBUG] [FML/]: The mod container asm-debug-all-5.0.3.jar appears to be missing an mcmod.info file
-[20:25:13] [Server thread/DEBUG] [FML/]: Examining file libraryjavasound-20101123.jar for potential mods
-[20:25:13] [Server thread/DEBUG] [FML/]: The mod container libraryjavasound-20101123.jar appears to be missing an mcmod.info file
-[20:25:13] [Server thread/DEBUG] [FML/]: Examining file jansi-1.11.jar for potential mods
-[20:25:13] [Server thread/DEBUG] [FML/]: The mod container jansi-1.11.jar appears to be missing an mcmod.info file
-[20:25:13] [Server thread/DEBUG] [FML/]: Examining file jsr305-2.0.1.jar for potential mods
-[20:25:13] [Server thread/DEBUG] [FML/]: The mod container jsr305-2.0.1.jar appears to be missing an mcmod.info file
-[20:25:13] [Server thread/DEBUG] [FML/]: Examining file compileDummy.jar for potential mods
-[20:25:13] [Server thread/DEBUG] [FML/]: The mod container compileDummy.jar appears to be missing an mcmod.info file
-[20:25:13] [Server thread/DEBUG] [FML/]: Examining file providedDummy.jar for potential mods
-[20:25:13] [Server thread/DEBUG] [FML/]: The mod container providedDummy.jar appears to be missing an mcmod.info file
-[20:25:13] [Server thread/DEBUG] [FML/]: Examining directory start for potential mods
-[20:25:13] [Server thread/DEBUG] [FML/]: No mcmod.info file found in directory start
-[20:25:13] [Server thread/TRACE] [FML/]: Recursing into package net
-[20:25:13] [Server thread/TRACE] [FML/]: Recursing into package net.minecraftforge
-[20:25:13] [Server thread/TRACE] [FML/]: Recursing into package net.minecraftforge.gradle
-[20:25:13] [Server thread/TRACE] [FML/]: Recursing into package net.minecraftforge.gradle.tweakers
-[20:25:13] [Server thread/INFO] [FML/]: Forge Mod Loader has identified 4 mods to load
-[20:25:13] [Server thread/TRACE] [FML/]: Received a system property request ''
-[20:25:13] [Server thread/TRACE] [FML/]: System property request managing the state of 0 mods
-[20:25:13] [Server thread/DEBUG] [FML/]: After merging, found state information for 0 mods
-[20:25:13] [Server thread/DEBUG] [FML/]: Found translations in forgeSrc-1.8.9-11.15.1.2318-1.8.9.jar [en_US, en_US]
-[20:25:13] [Server thread/DEBUG] [FML/]: Found translations in forgeSrc-1.8.9-11.15.1.2318-1.8.9.jar [en_US, en_US]
-[20:25:13] [Server thread/DEBUG] [JadeCraft/]: Enabling mod JadeCraft
-[20:25:13] [Server thread/DEBUG] [FML/]: Injecting found translation assets for lang ja_jp at assets/jadecraft/lang/ja_jp.lang into language system
-[20:25:13] [Server thread/DEBUG] [FML/]: Injecting found translation assets for lang en_US at assets/jadecraft/lang/en_US.lang into language system
-[20:25:13] [Server thread/TRACE] [FML/]: Verifying mod requirements are satisfied
-[20:25:13] [Server thread/TRACE] [FML/]: All mod requirements are satisfied
-[20:25:13] [Server thread/TRACE] [FML/]: Sorting mods into an ordered list
-[20:25:13] [Server thread/TRACE] [FML/]: Mod sorting completed successfully
-[20:25:13] [Server thread/DEBUG] [FML/]: Mod sorting data
-[20:25:13] [Server thread/DEBUG] [FML/]: 	JadeCraft(JadeCraft:0.11): bin (required-after:Forge@[1.8.9-11.15.1.2318,))
-[20:25:13] [Server thread/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
-[20:25:13] [Server thread/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
-[20:25:13] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Coder Pack took 0.002s
-[20:25:13] [Server thread/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
-[20:25:14] [Server thread/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
-[20:25:14] [Server thread/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
-[20:25:14] [Server thread/TRACE] [FML/FML]: The mod FML accepts its own version (8.0.99.99)
-[20:25:14] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, JadeCraft] at CLIENT
-[20:25:14] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, JadeCraft] at SERVER
-[20:25:15] [Server thread/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
-[20:25:15] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Forge Mod Loader took 1.382s
-[20:25:15] [Server thread/TRACE] [Forge/Forge]: Sending event FMLConstructionEvent to mod Forge
-[20:25:15] [Server thread/TRACE] [FML/Forge]: Mod Forge is using network checker : No network checking performed
-[20:25:15] [Server thread/TRACE] [FML/Forge]: Testing mod Forge to verify it accepts its own version in a remote connection
-[20:25:15] [Server thread/TRACE] [FML/Forge]: The mod Forge accepts its own version (11.15.1.2318)
-[20:25:15] [Server thread/TRACE] [Forge/Forge]: Sent event FMLConstructionEvent to mod Forge
-[20:25:15] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Forge took 0.008s
-[20:25:15] [Server thread/TRACE] [JadeCraft/JadeCraft]: Sending event FMLConstructionEvent to mod JadeCraft
-[20:25:15] [Server thread/TRACE] [FML/JadeCraft]: Mod JadeCraft is using network checker : Accepting version 0.11
-[20:25:15] [Server thread/TRACE] [FML/JadeCraft]: Testing mod JadeCraft to verify it accepts its own version in a remote connection
-[20:25:15] [Server thread/TRACE] [FML/JadeCraft]: The mod JadeCraft accepts its own version (0.11)
-[20:25:15] [Server thread/DEBUG] [FML/JadeCraft]: Attempting to inject @SidedProxy classes into JadeCraft
-[20:25:15] [Server thread/TRACE] [JadeCraft/JadeCraft]: Sent event FMLConstructionEvent to mod JadeCraft
-[20:25:15] [Server thread/DEBUG] [FML/]: Bar Step: Construction - JadeCraft took 0.051s
-[20:25:15] [Server thread/DEBUG] [FML/]: Bar Finished: Construction took 1.443s
-[20:25:15] [Server thread/DEBUG] [FML/]: Mod signature data
-[20:25:15] [Server thread/DEBUG] [FML/]:  	Valid Signatures:
-[20:25:15] [Server thread/DEBUG] [FML/]:  	Missing Signatures:
-[20:25:15] [Server thread/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.19)	minecraft.jar
-[20:25:15] [Server thread/DEBUG] [FML/]: 		FML	(Forge Mod Loader	8.0.99.99)	forgeSrc-1.8.9-11.15.1.2318-1.8.9.jar
-[20:25:15] [Server thread/DEBUG] [FML/]: 		Forge	(Minecraft Forge	11.15.1.2318)	forgeSrc-1.8.9-11.15.1.2318-1.8.9.jar
-[20:25:15] [Server thread/DEBUG] [FML/]: 		JadeCraft	(JadeCraft	0.11)	bin
-[20:25:15] [Server thread/INFO] [FML/]: Processing ObjectHolder annotations
-[20:25:15] [Server thread/INFO] [FML/]: Found 384 ObjectHolder annotations
-[20:25:15] [Server thread/INFO] [FML/]: Identifying ItemStackHolder annotations
-[20:25:15] [Server thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
-[20:25:15] [Server thread/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
-[20:25:15] [Server thread/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
-[20:25:15] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.001s
-[20:25:15] [Server thread/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
-[20:25:15] [Server thread/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
-[20:25:15] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Forge Mod Loader took 0.033s
-[20:25:15] [Server thread/TRACE] [Forge/Forge]: Sending event FMLPreInitializationEvent to mod Forge
-[20:25:15] [Server thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
-[20:25:15] [Server thread/TRACE] [Forge/Forge]: Sent event FMLPreInitializationEvent to mod Forge
-[20:25:15] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Forge took 0.128s
-[20:25:15] [Forge Version Check/INFO] [ForgeVersionCheck/Forge]: [Forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[20:25:15] [Server thread/TRACE] [JadeCraft/JadeCraft]: Sending event FMLPreInitializationEvent to mod JadeCraft
-[20:25:15] [Server thread/TRACE] [JadeCraft/JadeCraft]: Sent event FMLPreInitializationEvent to mod JadeCraft
-[20:25:15] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - JadeCraft took 0.024s
-[20:25:15] [Server thread/DEBUG] [FML/]: Bar Finished: PreInitialization took 0.186s
-[20:25:15] [Server thread/INFO] [FML/]: Applying holder lookups
-[20:25:15] [Server thread/INFO] [FML/]: Holder lookups applied
-[20:25:15] [Server thread/INFO] [FML/]: Injecting itemstacks
-[20:25:15] [Server thread/INFO] [FML/]: Itemstack injection complete
-[20:25:16] [Forge Version Check/DEBUG] [ForgeVersionCheck/Forge]: [Forge] Received version check data:
+[00:30:03] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[00:30:03] [main/INFO] [FML/]: Forge Mod Loader version 11.15.1.2318 for Minecraft 1.8.9 loading
+[00:30:03] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_192, running on Mac OS X:x86_64:10.14.3, installed at /Applications/Eclipse_2018-12.app/Contents/java/8/Home/jre
+[00:30:03] [main/DEBUG] [FML/]: Java classpath at launch is /Users/Mi/Desktop/forge-1.8.9-11.15.1.2318-1.8.9-mdk/bin:/Users/mitsuki/.gradle/caches/minecraft/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/stable/20/forgeSrc-1.8.9-11.15.1.2318-1.8.9.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.mojang/netty/1.6/4b75825a06139752bd800d9e29c5fd55b8b1b1e4/netty-1.6.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/oshi-project/oshi-core/1.1/9ddf7b048a8d701be231c0f4f95fd986198fd2d8/oshi-core-1.1.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/3.4.0/803ff252fedbd395baffd43b37341dc4a150a554/jna-3.4.0.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/platform/3.4.0/e3f70017be8100d3d6923f50b3d2ee17714e9c13/platform-3.4.0.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j-core-mojang/51.2/63d216a9311cca6be337c1e458e587f99d382b84/icu4j-core-mojang-51.2.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/4.6/306816fb57cf94f108a43c95731b08934dcae15c/jopt-simple-4.6.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.0.23.Final/294104aaf1781d6a56a07d561e792c5d0c95f45/netty-all-4.0.23.Final.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/17.0/9c6ef172e8de35fd8d4d8783e4821e57cdef7445/guava-17.0.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/net.java.jutils/jutils/1.0.0/e12fe1fda814bd348c1579329c86943d2cd3c6a6/jutils-1.0.0.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/1.5.21/aefba0d5b53fbcb70860bc8046ab95d5854c07a5/authlib-1.5.21.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.mojang/realms/1.7.59/9c6c59b742d8e038a15f64c1aa273a893a658424/realms-1.7.59.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.8.1/a698750c16740fd5b3871425f4cb3bbaa87f529d/commons-compress-1.8.1.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/18f4247ff4572a074444572cee34647c43e7c9c7/httpclient-4.3.3.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e/httpcore-4.3.2.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.0-beta9/1dd66e68cccd907880229f9e2de1314bd13ff785/log4j-api-2.0-beta9.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.0-beta9/678861ba1b2e1fccb594bb0ca03114bb05da9695/log4j-core-2.0-beta9.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/1.12/111e7bea9c968cdb3d06ef4632bf7ff0824d0f36/launchwrapper-1.12.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/jline/jline/2.13/2d9530d0a25daffaffda7c35037b046b627bb171/jline-2.13.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/5.0.3/f9e364ae2a66ce2a543012a4668856e84e5dab74/asm-debug-all-5.0.3.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-actor_2.11/2.3.3/ed62e9fc709ca0f2ff1a3220daa8b70a2870078e/akka-actor_2.11-2.3.3.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.2.1/f771f71fdae3df231bcd54d5ca2d57f0bf93f467/config-1.2.1.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors-migration_2.11/1.1.0/dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f/scala-actors-migration_2.11-1.1.0.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-compiler/2.11.1/56ea2e6c025e0821f28d73ca271218b8dd04926a/scala-compiler-2.11.1.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-library_2.11/1.0.2/e517c53a7e9acd6b1668c5a35eccbaa3bab9aac/scala-continuations-library_2.11-1.0.2.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-plugin_2.11.1/1.0.2/f361a3283452c57fa30c1ee69448995de23c60f7/scala-continuations-plugin_2.11.1-1.0.2.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.1/e11da23da3eabab9f4777b9220e60d44c1aab6a/scala-library-2.11.1.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.1/f05d7345bf5a58924f2837c6c1f4d73a938e1ff0/scala-parser-combinators_2.11-1.0.1.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.11.1/6580347e61cc7f8e802941e7fde40fa83b8badeb/scala-reflect-2.11.1.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-swing_2.11/1.0.1/b1cdd92bd47b1e1837139c1c53020e86bb9112ae/scala-swing_2.11-1.0.1.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.11/1.0.2/820fbca7e524b530fdadc594c39d49a21ea0337e/scala-xml_2.11-1.0.2.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/lzma/lzma/0.0.1/521616dc7487b42bef0e803bd2fa3faf668101d7/lzma-0.0.1.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/net.sf.trove4j/trove4j/3.0.3/42ccaf4761f0dfdfa805c9e340d99a755907e2dd/trove4j-3.0.3.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.paulscode/codecjorbis/20101023/c73b5636faf089d9f00e8732a829577de25237ee/codecjorbis-20101023.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.paulscode/codecwav/20101023/12f031cfe88fef5c1dd36c563c0a3a69bd7261da/codecwav-20101023.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.paulscode/libraryjavasound/20101123/5c5e304366f75f9eaa2e8cca546a1fb6109348b3/libraryjavasound-20101123.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.paulscode/librarylwjglopenal/20100824/73e80d0794c39665aec3f62eee88ca91676674ef/librarylwjglopenal-20100824.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.paulscode/soundsystem/20120107/419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6/soundsystem-20120107.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.2-nightly-20140822/7707204c9ffa5d91662de95f0a224e2f721b22af/lwjgl-2.9.2-nightly-20140822.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl_util/2.9.2-nightly-20140822/f0e612c840a7639c1f77f68d72a28dae2f0c8490/lwjgl_util-2.9.2-nightly-20140822.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch/6.5/320a2dfd18513a5f41b4e75729df684488cbd925/twitch-6.5.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/java3d/vecmath/1.5.2/79846ba34cbd89e2422d74d53752f993dcc2ccaf/vecmath-1.5.2.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.fusesource.jansi/jansi/1.11/655c643309c2f45a56a747fda70e3fadf57e9f11/jansi-1.11.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors/2.11.0/8ccfb6541de179bb1c4d45cf414acee069b7f78b/scala-actors-2.11.0.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/7ff832a6eb9ab6a767f1ade2b548092d0fa64795/jinput-platform-2.0.5-natives-linux.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/385ee093e01f587f30ee1c8a2ee7d408fd732e16/jinput-platform-2.0.5-natives-windows.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/53f9c919f34d2ca9de8c51fc4e1e8282029a9232/jinput-platform-2.0.5-natives-osx.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/206c4ccaecdbcfd2a1631150c69a97bbc9c20c11/twitch-platform-6.5-natives-windows-32.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/9fdd0fd5aed0817063dcf95b69349a171f447ebd/twitch-platform-6.5-natives-windows-64.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/5f9d1ee26257b3a33f0ca06fed335ef462af659f/twitch-platform-6.5-natives-osx.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-external-platform/4.5/18215140f010c05b9f86ef6f0f8871954d2ccebf/twitch-external-platform-4.5-natives-windows-32.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-external-platform/4.5/c3cde57891b935d41b6680a9c5e1502eeab76d86/twitch-external-platform-4.5-natives-windows-64.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2-nightly-20140822/78b2a55ce4dc29c6b3ec4df8ca165eba05f9b341/lwjgl-platform-2.9.2-nightly-20140822-natives-windows.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2-nightly-20140822/d898a33b5d0a6ef3fed3a4ead506566dce6720a5/lwjgl-platform-2.9.2-nightly-20140822-natives-linux.jar:/Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2-nightly-20140822/79f5ce2fea02e77fe47a3c745219167a542121d7/lwjgl-platform-2.9.2-nightly-20140822-natives-osx.jar:/Users/mitsuki/.gradle/caches/minecraft/deobfedDeps/compileDummy.jar:/Users/mitsuki/.gradle/caches/minecraft/deobfedDeps/providedDummy.jar:/Users/mitsuki/.gradle/caches/minecraft/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/start
+[00:30:03] [main/DEBUG] [FML/]: Java library path at launch is /Users/Mi/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+[00:30:03] [main/INFO] [FML/]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[00:30:03] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[00:30:03] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[00:30:03] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[00:30:03] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[00:30:03] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[00:30:03] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[00:30:03] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to /Users/Mi/Desktop/forge-1.8.9-11.15.1.2318-1.8.9-mdk/.
+[00:30:03] [main/DEBUG] [FML/]: Discovering coremods
+[00:30:03] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[00:30:03] [main/INFO] [GradleStart/]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[00:30:03] [main/INFO] [GradleStart/]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[00:30:03] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:30:03] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[00:30:03] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[00:30:03] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:30:03] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:30:03] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:30:03] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin} class transformers
+[00:30:03] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.BlamingTransformer
+[00:30:03] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[00:30:03] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[00:30:03] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[00:30:03] [main/DEBUG] [FML/]: Injection complete
+[00:30:03] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin}
+[00:30:03] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[00:30:03] [main/ERROR] [FML/]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[00:30:03] [main/DEBUG] [FML/]: Loading deobfuscation resource /Users/mitsuki/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_stable/20/srgs/srg-mcp.srg with 27884 records
+[00:30:04] [main/ERROR] [FML/]: FML appears to be missing any signature data. This is not a good thing
+[00:30:04] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[00:30:04] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:30:04] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+[00:30:04] [main/DEBUG] [FML/]: Injection complete
+[00:30:04] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+[00:30:04] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[00:30:04] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[00:30:04] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[00:30:04] [main/DEBUG] [FML/]: Loaded 165 rules from AccessTransformer config file forge_at.cfg
+[00:30:04] [main/DEBUG] [FML/]: Validating minecraft
+[00:30:05] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[00:30:05] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[00:30:05] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[00:30:05] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[00:30:06] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[00:30:18] [Server thread/INFO] [FML/]: MinecraftForge v11.15.1.2318 Initialized
+[00:30:18] [Server thread/INFO] [FML/]: Replaced 229 ore recipies
+[00:30:19] [Server thread/DEBUG] [FML/]: File /Users/Mi/Desktop/forge-1.8.9-11.15.1.2318-1.8.9-mdk/config/injectedDependencies.json not found. No dependencies injected
+[00:30:19] [Server thread/DEBUG] [FML/]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
+[00:30:19] [Server thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[00:30:19] [Server thread/DEBUG] [FML/]: Found a minecraft related directory at /Users/Mi/Desktop/forge-1.8.9-11.15.1.2318-1.8.9-mdk/bin, examining for mod candidates
+[00:30:19] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Users/mitsuki/.gradle/caches/minecraft/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/stable/20/forgeSrc-1.8.9-11.15.1.2318-1.8.9.jar, examining for mod candidates
+[00:30:19] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.mojang/netty/1.6/4b75825a06139752bd800d9e29c5fd55b8b1b1e4/netty-1.6.jar, examining for mod candidates
+[00:30:19] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Users/mitsuki/.gradle/caches/modules-2/files-2.1/oshi-project/oshi-core/1.1/9ddf7b048a8d701be231c0f4f95fd986198fd2d8/oshi-core-1.1.jar, examining for mod candidates
+[00:30:19] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Users/mitsuki/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/3.4.0/803ff252fedbd395baffd43b37341dc4a150a554/jna-3.4.0.jar, examining for mod candidates
+[00:30:19] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Users/mitsuki/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/platform/3.4.0/e3f70017be8100d3d6923f50b3d2ee17714e9c13/platform-3.4.0.jar, examining for mod candidates
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j-core-mojang/51.2/63d216a9311cca6be337c1e458e587f99d382b84/icu4j-core-mojang-51.2.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/4.6/306816fb57cf94f108a43c95731b08934dcae15c/jopt-simple-4.6.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.0.23.Final/294104aaf1781d6a56a07d561e792c5d0c95f45/netty-all-4.0.23.Final.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/17.0/9c6ef172e8de35fd8d4d8783e4821e57cdef7445/guava-17.0.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/net.java.jutils/jutils/1.0.0/e12fe1fda814bd348c1579329c86943d2cd3c6a6/jutils-1.0.0.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/1.5.21/aefba0d5b53fbcb70860bc8046ab95d5854c07a5/authlib-1.5.21.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.mojang/realms/1.7.59/9c6c59b742d8e038a15f64c1aa273a893a658424/realms-1.7.59.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.8.1/a698750c16740fd5b3871425f4cb3bbaa87f529d/commons-compress-1.8.1.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/18f4247ff4572a074444572cee34647c43e7c9c7/httpclient-4.3.3.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e/httpcore-4.3.2.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.0-beta9/1dd66e68cccd907880229f9e2de1314bd13ff785/log4j-api-2.0-beta9.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.0-beta9/678861ba1b2e1fccb594bb0ca03114bb05da9695/log4j-core-2.0-beta9.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/1.12/111e7bea9c968cdb3d06ef4632bf7ff0824d0f36/launchwrapper-1.12.jar
+[00:30:19] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Users/mitsuki/.gradle/caches/modules-2/files-2.1/jline/jline/2.13/2d9530d0a25daffaffda7c35037b046b627bb171/jline-2.13.jar, examining for mod candidates
+[00:30:19] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/5.0.3/f9e364ae2a66ce2a543012a4668856e84e5dab74/asm-debug-all-5.0.3.jar, examining for mod candidates
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-actor_2.11/2.3.3/ed62e9fc709ca0f2ff1a3220daa8b70a2870078e/akka-actor_2.11-2.3.3.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.2.1/f771f71fdae3df231bcd54d5ca2d57f0bf93f467/config-1.2.1.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors-migration_2.11/1.1.0/dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f/scala-actors-migration_2.11-1.1.0.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-compiler/2.11.1/56ea2e6c025e0821f28d73ca271218b8dd04926a/scala-compiler-2.11.1.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-library_2.11/1.0.2/e517c53a7e9acd6b1668c5a35eccbaa3bab9aac/scala-continuations-library_2.11-1.0.2.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-plugin_2.11.1/1.0.2/f361a3283452c57fa30c1ee69448995de23c60f7/scala-continuations-plugin_2.11.1-1.0.2.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.1/e11da23da3eabab9f4777b9220e60d44c1aab6a/scala-library-2.11.1.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.1/f05d7345bf5a58924f2837c6c1f4d73a938e1ff0/scala-parser-combinators_2.11-1.0.1.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.11.1/6580347e61cc7f8e802941e7fde40fa83b8badeb/scala-reflect-2.11.1.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-swing_2.11/1.0.1/b1cdd92bd47b1e1837139c1c53020e86bb9112ae/scala-swing_2.11-1.0.1.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.11/1.0.2/820fbca7e524b530fdadc594c39d49a21ea0337e/scala-xml_2.11-1.0.2.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/lzma/lzma/0.0.1/521616dc7487b42bef0e803bd2fa3faf668101d7/lzma-0.0.1.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/net.sf.trove4j/trove4j/3.0.3/42ccaf4761f0dfdfa805c9e340d99a755907e2dd/trove4j-3.0.3.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.paulscode/codecjorbis/20101023/c73b5636faf089d9f00e8732a829577de25237ee/codecjorbis-20101023.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.paulscode/codecwav/20101023/12f031cfe88fef5c1dd36c563c0a3a69bd7261da/codecwav-20101023.jar
+[00:30:19] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.paulscode/libraryjavasound/20101123/5c5e304366f75f9eaa2e8cca546a1fb6109348b3/libraryjavasound-20101123.jar, examining for mod candidates
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.paulscode/librarylwjglopenal/20100824/73e80d0794c39665aec3f62eee88ca91676674ef/librarylwjglopenal-20100824.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.paulscode/soundsystem/20120107/419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6/soundsystem-20120107.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.2-nightly-20140822/7707204c9ffa5d91662de95f0a224e2f721b22af/lwjgl-2.9.2-nightly-20140822.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl_util/2.9.2-nightly-20140822/f0e612c840a7639c1f77f68d72a28dae2f0c8490/lwjgl_util-2.9.2-nightly-20140822.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch/6.5/320a2dfd18513a5f41b4e75729df684488cbd925/twitch-6.5.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/java3d/vecmath/1.5.2/79846ba34cbd89e2422d74d53752f993dcc2ccaf/vecmath-1.5.2.jar
+[00:30:19] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.fusesource.jansi/jansi/1.11/655c643309c2f45a56a747fda70e3fadf57e9f11/jansi-1.11.jar, examining for mod candidates
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors/2.11.0/8ccfb6541de179bb1c4d45cf414acee069b7f78b/scala-actors-2.11.0.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/7ff832a6eb9ab6a767f1ade2b548092d0fa64795/jinput-platform-2.0.5-natives-linux.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/385ee093e01f587f30ee1c8a2ee7d408fd732e16/jinput-platform-2.0.5-natives-windows.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/53f9c919f34d2ca9de8c51fc4e1e8282029a9232/jinput-platform-2.0.5-natives-osx.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/206c4ccaecdbcfd2a1631150c69a97bbc9c20c11/twitch-platform-6.5-natives-windows-32.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/9fdd0fd5aed0817063dcf95b69349a171f447ebd/twitch-platform-6.5-natives-windows-64.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/5f9d1ee26257b3a33f0ca06fed335ef462af659f/twitch-platform-6.5-natives-osx.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-external-platform/4.5/18215140f010c05b9f86ef6f0f8871954d2ccebf/twitch-external-platform-4.5-natives-windows-32.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-external-platform/4.5/c3cde57891b935d41b6680a9c5e1502eeab76d86/twitch-external-platform-4.5-natives-windows-64.jar
+[00:30:19] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Users/mitsuki/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar, examining for mod candidates
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2-nightly-20140822/78b2a55ce4dc29c6b3ec4df8ca165eba05f9b341/lwjgl-platform-2.9.2-nightly-20140822-natives-windows.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2-nightly-20140822/d898a33b5d0a6ef3fed3a4ead506566dce6720a5/lwjgl-platform-2.9.2-nightly-20140822-natives-linux.jar
+[00:30:19] [Server thread/TRACE] [FML/]: Skipping known library file /Users/mitsuki/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2-nightly-20140822/79f5ce2fea02e77fe47a3c745219167a542121d7/lwjgl-platform-2.9.2-nightly-20140822-natives-osx.jar
+[00:30:19] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Users/mitsuki/.gradle/caches/minecraft/deobfedDeps/compileDummy.jar, examining for mod candidates
+[00:30:19] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Users/mitsuki/.gradle/caches/minecraft/deobfedDeps/providedDummy.jar, examining for mod candidates
+[00:30:19] [Server thread/DEBUG] [FML/]: Found a minecraft related directory at /Users/mitsuki/.gradle/caches/minecraft/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/start, examining for mod candidates
+[00:30:19] [Server thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[00:30:19] [Server thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[00:30:19] [Server thread/INFO] [FML/]: Searching /Users/Mi/Desktop/forge-1.8.9-11.15.1.2318-1.8.9-mdk/mods for mods
+[00:30:19] [Server thread/DEBUG] [FML/]: Ignoring unknown file .DS_Store in mods directory
+[00:30:19] [Server thread/DEBUG] [FML/]: Examining directory bin for potential mods
+[00:30:19] [Server thread/DEBUG] [FML/]: Found an mcmod.info file in directory bin
+[00:30:19] [Server thread/TRACE] [FML/]: Recursing into package assets
+[00:30:19] [Server thread/TRACE] [FML/]: Recursing into package assets.jadecraft
+[00:30:19] [Server thread/TRACE] [FML/]: Recursing into package assets.jadecraft.blockstates
+[00:30:19] [Server thread/TRACE] [FML/]: Recursing into package assets.jadecraft.lang
+[00:30:19] [Server thread/TRACE] [FML/]: Recursing into package assets.jadecraft.models
+[00:30:19] [Server thread/TRACE] [FML/]: Recursing into package assets.jadecraft.models.block
+[00:30:19] [Server thread/TRACE] [FML/]: Recursing into package assets.jadecraft.models.item
+[00:30:19] [Server thread/TRACE] [FML/]: Recursing into package assets.jadecraft.textures
+[00:30:19] [Server thread/TRACE] [FML/]: Recursing into package assets.jadecraft.textures.armor
+[00:30:19] [Server thread/TRACE] [FML/]: Recursing into package assets.jadecraft.textures.blocks
+[00:30:19] [Server thread/TRACE] [FML/]: Recursing into package assets.jadecraft.textures.items
+[00:30:19] [Server thread/TRACE] [FML/]: Recursing into package assets.jadecraft.textures.items.aromors
+[00:30:19] [Server thread/TRACE] [FML/]: Recursing into package assets.jadecraft.textures.items.tools
+[00:30:19] [Server thread/TRACE] [FML/]: Recursing into package com
+[00:30:19] [Server thread/TRACE] [FML/]: Recursing into package com.mitsuki
+[00:30:19] [Server thread/TRACE] [FML/]: Recursing into package com.mitsuki.JadeCraft
+[00:30:19] [Server thread/TRACE] [FML/]: Recursing into package com.mitsuki.JadeCraft.Aromors
+[00:30:20] [Server thread/TRACE] [FML/]: Recursing into package com.mitsuki.JadeCraft.Blocks
+[00:30:20] [Server thread/TRACE] [FML/]: Recursing into package com.mitsuki.JadeCraft.CreativeTabs
+[00:30:20] [Server thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (com.mitsuki.JadeCraft.JadeCraftCore) - loading
+[00:30:20] [Server thread/TRACE] [JadeCraft/]: Parsed dependency info : [Forge@[1.8.9-11.15.1.2318,)] [Forge@[1.8.9-11.15.1.2318,)] []
+[00:30:20] [Server thread/TRACE] [FML/]: Recursing into package com.mitsuki.JadeCraft.Recipe
+[00:30:20] [Server thread/TRACE] [FML/]: Recursing into package com.mitsuki.JadeCraft.Tools
+[00:30:20] [Server thread/TRACE] [FML/]: Recursing into package com.mitsuki.JadeCraft.Tools.Others
+[00:30:20] [Server thread/TRACE] [FML/]: Recursing into package com.mitsuki.JadeCraft.Tools.Others.Jade
+[00:30:20] [Server thread/TRACE] [FML/]: Recursing into package com.mitsuki.JadeCraft.Tools.Others.Sapphire
+[00:30:20] [Server thread/TRACE] [FML/]: Recursing into package com.mitsuki.JadeCraft.Tools.Sword
+[00:30:20] [Server thread/TRACE] [FML/]: Recursing into package com.mitsuki.JadeCraft.items
+[00:30:20] [Server thread/DEBUG] [FML/]: Examining file forgeSrc-1.8.9-11.15.1.2318-1.8.9.jar for potential mods
+[00:30:20] [Server thread/DEBUG] [FML/]: The mod container forgeSrc-1.8.9-11.15.1.2318-1.8.9.jar appears to be missing an mcmod.info file
+[00:30:22] [Server thread/DEBUG] [FML/]: Examining file netty-1.6.jar for potential mods
+[00:30:22] [Server thread/DEBUG] [FML/]: The mod container netty-1.6.jar appears to be missing an mcmod.info file
+[00:30:22] [Server thread/DEBUG] [FML/]: Examining file oshi-core-1.1.jar for potential mods
+[00:30:22] [Server thread/DEBUG] [FML/]: The mod container oshi-core-1.1.jar appears to be missing an mcmod.info file
+[00:30:22] [Server thread/DEBUG] [FML/]: Examining file jna-3.4.0.jar for potential mods
+[00:30:22] [Server thread/DEBUG] [FML/]: The mod container jna-3.4.0.jar appears to be missing an mcmod.info file
+[00:30:22] [Server thread/DEBUG] [FML/]: Examining file platform-3.4.0.jar for potential mods
+[00:30:22] [Server thread/DEBUG] [FML/]: The mod container platform-3.4.0.jar appears to be missing an mcmod.info file
+[00:30:22] [Server thread/DEBUG] [FML/]: Examining file jline-2.13.jar for potential mods
+[00:30:22] [Server thread/DEBUG] [FML/]: The mod container jline-2.13.jar appears to be missing an mcmod.info file
+[00:30:22] [Server thread/DEBUG] [FML/]: Examining file asm-debug-all-5.0.3.jar for potential mods
+[00:30:22] [Server thread/DEBUG] [FML/]: The mod container asm-debug-all-5.0.3.jar appears to be missing an mcmod.info file
+[00:30:22] [Server thread/DEBUG] [FML/]: Examining file libraryjavasound-20101123.jar for potential mods
+[00:30:22] [Server thread/DEBUG] [FML/]: The mod container libraryjavasound-20101123.jar appears to be missing an mcmod.info file
+[00:30:22] [Server thread/DEBUG] [FML/]: Examining file jansi-1.11.jar for potential mods
+[00:30:22] [Server thread/DEBUG] [FML/]: The mod container jansi-1.11.jar appears to be missing an mcmod.info file
+[00:30:22] [Server thread/DEBUG] [FML/]: Examining file jsr305-2.0.1.jar for potential mods
+[00:30:22] [Server thread/DEBUG] [FML/]: The mod container jsr305-2.0.1.jar appears to be missing an mcmod.info file
+[00:30:22] [Server thread/DEBUG] [FML/]: Examining file compileDummy.jar for potential mods
+[00:30:22] [Server thread/DEBUG] [FML/]: The mod container compileDummy.jar appears to be missing an mcmod.info file
+[00:30:22] [Server thread/DEBUG] [FML/]: Examining file providedDummy.jar for potential mods
+[00:30:22] [Server thread/DEBUG] [FML/]: The mod container providedDummy.jar appears to be missing an mcmod.info file
+[00:30:22] [Server thread/DEBUG] [FML/]: Examining directory start for potential mods
+[00:30:22] [Server thread/DEBUG] [FML/]: No mcmod.info file found in directory start
+[00:30:22] [Server thread/TRACE] [FML/]: Recursing into package net
+[00:30:22] [Server thread/TRACE] [FML/]: Recursing into package net.minecraftforge
+[00:30:22] [Server thread/TRACE] [FML/]: Recursing into package net.minecraftforge.gradle
+[00:30:22] [Server thread/TRACE] [FML/]: Recursing into package net.minecraftforge.gradle.tweakers
+[00:30:22] [Server thread/INFO] [FML/]: Forge Mod Loader has identified 4 mods to load
+[00:30:22] [Server thread/TRACE] [FML/]: Received a system property request ''
+[00:30:22] [Server thread/TRACE] [FML/]: System property request managing the state of 0 mods
+[00:30:22] [Server thread/DEBUG] [FML/]: After merging, found state information for 0 mods
+[00:30:22] [Server thread/DEBUG] [FML/]: Found translations in forgeSrc-1.8.9-11.15.1.2318-1.8.9.jar [en_US, en_US]
+[00:30:23] [Server thread/DEBUG] [FML/]: Found translations in forgeSrc-1.8.9-11.15.1.2318-1.8.9.jar [en_US, en_US]
+[00:30:23] [Server thread/DEBUG] [JadeCraft/]: Enabling mod JadeCraft
+[00:30:23] [Server thread/DEBUG] [FML/]: Injecting found translation assets for lang ja_jp at assets/jadecraft/lang/ja_jp.lang into language system
+[00:30:23] [Server thread/DEBUG] [FML/]: Injecting found translation assets for lang en_US at assets/jadecraft/lang/en_US.lang into language system
+[00:30:23] [Server thread/TRACE] [FML/]: Verifying mod requirements are satisfied
+[00:30:23] [Server thread/TRACE] [FML/]: All mod requirements are satisfied
+[00:30:23] [Server thread/TRACE] [FML/]: Sorting mods into an ordered list
+[00:30:23] [Server thread/TRACE] [FML/]: Mod sorting completed successfully
+[00:30:23] [Server thread/DEBUG] [FML/]: Mod sorting data
+[00:30:23] [Server thread/DEBUG] [FML/]: 	JadeCraft(JadeCraft:1.40): bin (required-after:Forge@[1.8.9-11.15.1.2318,))
+[00:30:23] [Server thread/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
+[00:30:23] [Server thread/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
+[00:30:23] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Coder Pack took 0.002s
+[00:30:23] [Server thread/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
+[00:30:23] [Server thread/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
+[00:30:23] [Server thread/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[00:30:23] [Server thread/TRACE] [FML/FML]: The mod FML accepts its own version (8.0.99.99)
+[00:30:23] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, JadeCraft] at CLIENT
+[00:30:23] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, JadeCraft] at SERVER
+[00:30:24] [Server thread/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
+[00:30:24] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Forge Mod Loader took 1.084s
+[00:30:24] [Server thread/TRACE] [Forge/Forge]: Sending event FMLConstructionEvent to mod Forge
+[00:30:24] [Server thread/TRACE] [FML/Forge]: Mod Forge is using network checker : No network checking performed
+[00:30:24] [Server thread/TRACE] [FML/Forge]: Testing mod Forge to verify it accepts its own version in a remote connection
+[00:30:24] [Server thread/TRACE] [FML/Forge]: The mod Forge accepts its own version (11.15.1.2318)
+[00:30:24] [Server thread/TRACE] [Forge/Forge]: Sent event FMLConstructionEvent to mod Forge
+[00:30:24] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Forge took 0.009s
+[00:30:24] [Server thread/TRACE] [JadeCraft/JadeCraft]: Sending event FMLConstructionEvent to mod JadeCraft
+[00:30:24] [Server thread/TRACE] [FML/JadeCraft]: Mod JadeCraft is using network checker : Accepting version 1.40
+[00:30:24] [Server thread/TRACE] [FML/JadeCraft]: Testing mod JadeCraft to verify it accepts its own version in a remote connection
+[00:30:24] [Server thread/TRACE] [FML/JadeCraft]: The mod JadeCraft accepts its own version (1.40)
+[00:30:24] [Server thread/DEBUG] [FML/JadeCraft]: Attempting to inject @SidedProxy classes into JadeCraft
+[00:30:24] [Server thread/TRACE] [JadeCraft/JadeCraft]: Sent event FMLConstructionEvent to mod JadeCraft
+[00:30:24] [Server thread/DEBUG] [FML/]: Bar Step: Construction - JadeCraft took 0.088s
+[00:30:24] [Server thread/DEBUG] [FML/]: Bar Finished: Construction took 1.183s
+[00:30:24] [Server thread/DEBUG] [FML/]: Mod signature data
+[00:30:24] [Server thread/DEBUG] [FML/]:  	Valid Signatures:
+[00:30:24] [Server thread/DEBUG] [FML/]:  	Missing Signatures:
+[00:30:24] [Server thread/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.19)	minecraft.jar
+[00:30:24] [Server thread/DEBUG] [FML/]: 		FML	(Forge Mod Loader	8.0.99.99)	forgeSrc-1.8.9-11.15.1.2318-1.8.9.jar
+[00:30:24] [Server thread/DEBUG] [FML/]: 		Forge	(Minecraft Forge	11.15.1.2318)	forgeSrc-1.8.9-11.15.1.2318-1.8.9.jar
+[00:30:24] [Server thread/DEBUG] [FML/]: 		JadeCraft	(JadeCraft	1.40)	bin
+[00:30:24] [Server thread/INFO] [FML/]: Processing ObjectHolder annotations
+[00:30:24] [Server thread/INFO] [FML/]: Found 384 ObjectHolder annotations
+[00:30:24] [Server thread/INFO] [FML/]: Identifying ItemStackHolder annotations
+[00:30:24] [Server thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[00:30:24] [Server thread/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
+[00:30:24] [Server thread/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
+[00:30:24] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.001s
+[00:30:24] [Server thread/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
+[00:30:24] [Server thread/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
+[00:30:24] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Forge Mod Loader took 0.254s
+[00:30:24] [Server thread/TRACE] [Forge/Forge]: Sending event FMLPreInitializationEvent to mod Forge
+[00:30:24] [Server thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
+[00:30:24] [Server thread/TRACE] [Forge/Forge]: Sent event FMLPreInitializationEvent to mod Forge
+[00:30:24] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Forge took 0.052s
+[00:30:24] [Server thread/TRACE] [JadeCraft/JadeCraft]: Sending event FMLPreInitializationEvent to mod JadeCraft
+[00:30:24] [Forge Version Check/INFO] [ForgeVersionCheck/Forge]: [Forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[00:30:24] [Server thread/TRACE] [JadeCraft/JadeCraft]: Sent event FMLPreInitializationEvent to mod JadeCraft
+[00:30:24] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - JadeCraft took 0.039s
+[00:30:24] [Server thread/DEBUG] [FML/]: Bar Finished: PreInitialization took 0.346s
+[00:30:24] [Server thread/INFO] [FML/]: Applying holder lookups
+[00:30:24] [Server thread/INFO] [FML/]: Holder lookups applied
+[00:30:24] [Server thread/INFO] [FML/]: Injecting itemstacks
+[00:30:24] [Server thread/INFO] [FML/]: Itemstack injection complete
+[00:30:25] [Forge Version Check/DEBUG] [ForgeVersionCheck/Forge]: [Forge] Received version check data:
 {
   "homepage": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/",
   "promos": {
+    "1.1-latest": "1.3.2.6",
     "1.10-latest": "12.18.0.2000",
     "1.10.2-latest": "12.18.3.2511",
     "1.10.2-recommended": "12.18.3.2185",
@@ -306,8 +268,9 @@
     "1.12-recommended": "14.21.1.2387",
     "1.12.1-latest": "14.22.1.2485",
     "1.12.1-recommended": "14.22.1.2478",
-    "1.12.2-latest": "14.23.4.2747",
-    "1.12.2-recommended": "14.23.4.2705",
+    "1.12.2-latest": "14.23.5.2824",
+    "1.12.2-recommended": "14.23.5.2768",
+    "1.13.2-latest": "25.0.107",
     "1.5.2-latest": "7.8.1.738",
     "1.5.2-recommended": "7.8.1.737",
     "1.6.1-latest": "8.9.0.775",
@@ -330,24 +293,197 @@
     "1.9-recommended": "12.16.1.1887",
     "1.9.4-latest": "12.17.0.2051",
     "1.9.4-recommended": "12.17.0.1976",
-    "latest": "14.23.4.2747",
     "latest-1.7.10": "10.13.2.1343",
-    "recommended": "14.23.4.2705"
+    "recommended": "14.23.5.2768"
   }
 }
-[20:25:16] [Forge Version Check/INFO] [ForgeVersionCheck/Forge]: [Forge] Found status: AHEAD Target: null
-[20:25:17] [Server thread/WARN] [FML/]: Can't revert to frozen GameData state without freezing first.
-[20:25:17] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppedEvent to mod mcp
-[20:25:17] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppedEvent to mod mcp
-[20:25:17] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Coder Pack took 0.001s
-[20:25:17] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppedEvent to mod FML
-[20:25:17] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppedEvent to mod FML
-[20:25:17] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Forge Mod Loader took 0.002s
-[20:25:17] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppedEvent to mod Forge
-[20:25:17] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppedEvent to mod Forge
-[20:25:17] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Forge took 0.000s
-[20:25:17] [Server thread/TRACE] [JadeCraft/JadeCraft]: Sending event FMLServerStoppedEvent to mod JadeCraft
-[20:25:17] [Server thread/TRACE] [JadeCraft/JadeCraft]: Sent event FMLServerStoppedEvent to mod JadeCraft
-[20:25:17] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - JadeCraft took 0.000s
-[20:25:17] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopped took 0.004s
-[20:25:17] [Server thread/INFO] [FML/]: The state engine was in incorrect state POSTINITIALIZATION and forced into state SERVER_STOPPED. Errors may have been discarded.
+[00:30:25] [Forge Version Check/INFO] [ForgeVersionCheck/Forge]: [Forge] Found status: AHEAD Target: null
+[00:30:26] [Server thread/TRACE] [mcp/mcp]: Sending event FMLInitializationEvent to mod mcp
+[00:30:26] [Server thread/TRACE] [mcp/mcp]: Sent event FMLInitializationEvent to mod mcp
+[00:30:26] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Coder Pack took 0.000s
+[00:30:26] [Server thread/TRACE] [FML/FML]: Sending event FMLInitializationEvent to mod FML
+[00:30:26] [Server thread/TRACE] [FML/FML]: Sent event FMLInitializationEvent to mod FML
+[00:30:26] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Forge Mod Loader took 0.000s
+[00:30:26] [Server thread/TRACE] [Forge/Forge]: Sending event FMLInitializationEvent to mod Forge
+[00:30:26] [Server thread/TRACE] [Forge/Forge]: Sent event FMLInitializationEvent to mod Forge
+[00:30:26] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Forge took 0.000s
+[00:30:26] [Server thread/TRACE] [JadeCraft/JadeCraft]: Sending event FMLInitializationEvent to mod JadeCraft
+[00:30:26] [Server thread/TRACE] [JadeCraft/JadeCraft]: Sent event FMLInitializationEvent to mod JadeCraft
+[00:30:26] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - JadeCraft took 0.001s
+[00:30:26] [Server thread/DEBUG] [FML/]: Bar Finished: Initialization took 0.002s
+[00:30:26] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod mcp
+[00:30:26] [Server thread/TRACE] [mcp/mcp]: Sending event IMCEvent to mod mcp
+[00:30:26] [Server thread/TRACE] [mcp/mcp]: Sent event IMCEvent to mod mcp
+[00:30:26] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Coder Pack took 0.004s
+[00:30:26] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod FML
+[00:30:26] [Server thread/TRACE] [FML/FML]: Sending event IMCEvent to mod FML
+[00:30:26] [Server thread/TRACE] [FML/FML]: Sent event IMCEvent to mod FML
+[00:30:26] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Forge Mod Loader took 0.002s
+[00:30:26] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod Forge
+[00:30:26] [Server thread/TRACE] [Forge/Forge]: Sending event IMCEvent to mod Forge
+[00:30:26] [Server thread/TRACE] [Forge/Forge]: Sent event IMCEvent to mod Forge
+[00:30:26] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Forge took 0.001s
+[00:30:26] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod JadeCraft
+[00:30:26] [Server thread/TRACE] [JadeCraft/JadeCraft]: Sending event IMCEvent to mod JadeCraft
+[00:30:26] [Server thread/TRACE] [JadeCraft/JadeCraft]: Sent event IMCEvent to mod JadeCraft
+[00:30:26] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - JadeCraft took 0.001s
+[00:30:26] [Server thread/DEBUG] [FML/]: Bar Finished: InterModComms$IMC took 0.007s
+[00:30:26] [Server thread/INFO] [FML/]: Injecting itemstacks
+[00:30:26] [Server thread/INFO] [FML/]: Itemstack injection complete
+[00:30:26] [Server thread/TRACE] [mcp/mcp]: Sending event FMLPostInitializationEvent to mod mcp
+[00:30:26] [Server thread/TRACE] [mcp/mcp]: Sent event FMLPostInitializationEvent to mod mcp
+[00:30:26] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Coder Pack took 0.000s
+[00:30:26] [Server thread/TRACE] [FML/FML]: Sending event FMLPostInitializationEvent to mod FML
+[00:30:26] [Server thread/TRACE] [FML/FML]: Sent event FMLPostInitializationEvent to mod FML
+[00:30:26] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Forge Mod Loader took 0.000s
+[00:30:26] [Server thread/TRACE] [Forge/Forge]: Sending event FMLPostInitializationEvent to mod Forge
+[00:30:26] [Server thread/TRACE] [Forge/Forge]: Sent event FMLPostInitializationEvent to mod Forge
+[00:30:26] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Forge took 0.216s
+[00:30:26] [Server thread/TRACE] [JadeCraft/JadeCraft]: Sending event FMLPostInitializationEvent to mod JadeCraft
+[00:30:26] [Server thread/TRACE] [JadeCraft/JadeCraft]: Sent event FMLPostInitializationEvent to mod JadeCraft
+[00:30:26] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - JadeCraft took 0.000s
+[00:30:26] [Server thread/DEBUG] [FML/]: Bar Finished: PostInitialization took 0.218s
+[00:30:26] [Server thread/TRACE] [mcp/mcp]: Sending event FMLLoadCompleteEvent to mod mcp
+[00:30:26] [Server thread/TRACE] [mcp/mcp]: Sent event FMLLoadCompleteEvent to mod mcp
+[00:30:26] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Coder Pack took 0.000s
+[00:30:26] [Server thread/TRACE] [FML/FML]: Sending event FMLLoadCompleteEvent to mod FML
+[00:30:26] [Server thread/TRACE] [FML/FML]: Sent event FMLLoadCompleteEvent to mod FML
+[00:30:26] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Forge Mod Loader took 0.000s
+[00:30:26] [Server thread/TRACE] [Forge/Forge]: Sending event FMLLoadCompleteEvent to mod Forge
+[00:30:26] [Server thread/DEBUG] [FML/Forge]: Forge RecipeSorter Baking:
+[00:30:26] [Server thread/DEBUG] [FML/Forge]:   14: RecipeEntry("Before", UNKNOWN, )
+[00:30:26] [Server thread/DEBUG] [FML/Forge]:   13: RecipeEntry("minecraft:shaped", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless
+[00:30:26] [Server thread/DEBUG] [FML/Forge]:   12: RecipeEntry("forge:shapedore", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped
+[00:30:26] [Server thread/DEBUG] [FML/Forge]:   11: RecipeEntry("minecraft:mapextending", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped
+[00:30:26] [Server thread/DEBUG] [FML/Forge]:   10: RecipeEntry("minecraft:shapeless", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped
+[00:30:26] [Server thread/DEBUG] [FML/Forge]:   9: RecipeEntry("minecraft:repair", SHAPELESS, net.minecraft.item.crafting.RecipeRepairItem) After: minecraft:shapeless
+[00:30:26] [Server thread/DEBUG] [FML/Forge]:   8: RecipeEntry("forge:shapelessore", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless
+[00:30:26] [Server thread/DEBUG] [FML/Forge]:   7: RecipeEntry("minecraft:armordyes", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless
+[00:30:26] [Server thread/DEBUG] [FML/Forge]:   6: RecipeEntry("minecraft:fireworks", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless
+[00:30:26] [Server thread/DEBUG] [FML/Forge]:   5: RecipeEntry("minecraft:pattern_add", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeAddPattern) After: minecraft:shapeless
+[00:30:26] [Server thread/DEBUG] [FML/Forge]:   4: RecipeEntry("minecraft:pattern_dupe", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeDuplicatePattern) After: minecraft:shapeless
+[00:30:26] [Server thread/DEBUG] [FML/Forge]:   3: RecipeEntry("minecraft:bookcloning", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless
+[00:30:26] [Server thread/DEBUG] [FML/Forge]:   2: RecipeEntry("minecraft:mapcloning", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless
+[00:30:26] [Server thread/DEBUG] [FML/Forge]:   1: RecipeEntry("After", UNKNOWN, )
+[00:30:26] [Server thread/DEBUG] [FML/Forge]: Sorting recipies
+[00:30:26] [Server thread/TRACE] [Forge/Forge]: Sent event FMLLoadCompleteEvent to mod Forge
+[00:30:26] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Forge took 0.010s
+[00:30:26] [Server thread/TRACE] [JadeCraft/JadeCraft]: Sending event FMLLoadCompleteEvent to mod JadeCraft
+[00:30:26] [Server thread/TRACE] [JadeCraft/JadeCraft]: Sent event FMLLoadCompleteEvent to mod JadeCraft
+[00:30:26] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - JadeCraft took 0.001s
+[00:30:26] [Server thread/DEBUG] [FML/]: Bar Finished: LoadComplete took 0.012s
+[00:30:26] [Server thread/DEBUG] [FML/]: Freezing block and item id maps
+[00:30:26] [Server thread/INFO] [FML/]: Forge Mod Loader has successfully loaded 4 mods
+[00:30:26] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerAboutToStartEvent to mod mcp
+[00:30:26] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerAboutToStartEvent to mod mcp
+[00:30:26] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Coder Pack took 0.000s
+[00:30:26] [Server thread/TRACE] [FML/FML]: Sending event FMLServerAboutToStartEvent to mod FML
+[00:30:26] [Server thread/TRACE] [FML/FML]: Sent event FMLServerAboutToStartEvent to mod FML
+[00:30:26] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Forge Mod Loader took 0.000s
+[00:30:26] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerAboutToStartEvent to mod Forge
+[00:30:26] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerAboutToStartEvent to mod Forge
+[00:30:26] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Forge took 0.000s
+[00:30:26] [Server thread/TRACE] [JadeCraft/JadeCraft]: Sending event FMLServerAboutToStartEvent to mod JadeCraft
+[00:30:26] [Server thread/TRACE] [JadeCraft/JadeCraft]: Sent event FMLServerAboutToStartEvent to mod JadeCraft
+[00:30:26] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - JadeCraft took 0.000s
+[00:30:26] [Server thread/DEBUG] [FML/]: Bar Finished: ServerAboutToStart took 0.001s
+[00:30:26] [Server thread/INFO] [fml.ModTracker/]: This world was saved with mod JadeCraft version 1.20 and it is now at version 1.40, things may not work well
+[00:30:27] [Server thread/INFO] [FML/]: Injecting existing block and item data into this server instance
+[00:30:27] [Server thread/DEBUG] [FML/]: Fixed minecraft:blocks id mismatch jadecraft:jadeblock: 200 (init) -> 198 (map).
+[00:30:27] [Server thread/DEBUG] [FML/]: Fixed minecraft:blocks id mismatch jadecraft:jade_ore: 198 (init) -> 199 (map).
+[00:30:27] [Server thread/DEBUG] [FML/]: Fixed minecraft:blocks id mismatch jadecraft:sapphireblock: 201 (init) -> 200 (map).
+[00:30:27] [Server thread/INFO] [FML/]: Found a missing id from the world jadecraft:Sapphire_Ore
+[00:30:27] [Server thread/DEBUG] [FML/]: Fixed minecraft:items id mismatch jadecraft:jadehoe: 4103 (init) -> 4106 (map).
+[00:30:27] [Server thread/DEBUG] [FML/]: Fixed minecraft:items id mismatch jadecraft:sapphiresword: 4105 (init) -> 4112 (map).
+[00:30:27] [Server thread/DEBUG] [FML/]: Fixed minecraft:items id mismatch jadecraft:sapphireaxe: 4107 (init) -> 4119 (map).
+[00:30:27] [Server thread/DEBUG] [FML/]: Fixed minecraft:items id mismatch jadecraft:jadeblock: 4119 (init) -> 4096 (map).
+[00:30:27] [Server thread/DEBUG] [FML/]: Fixed minecraft:items id mismatch jadecraft:avalon: 4112 (init) -> 4116 (map).
+[00:30:27] [Server thread/DEBUG] [FML/]: Fixed minecraft:items id mismatch jadecraft:sapphireshovel: 4109 (init) -> 4120 (map).
+[00:30:27] [Server thread/DEBUG] [FML/]: Fixed minecraft:items id mismatch jadecraft:sapphirehoe: 4108 (init) -> 4117 (map).
+[00:30:27] [Server thread/DEBUG] [FML/]: Fixed minecraft:items id mismatch jadecraft:jade_crystal: 4098 (init) -> 4099 (map).
+[00:30:27] [Server thread/DEBUG] [FML/]: Fixed minecraft:items id mismatch jadecraft:jade_ore: 4117 (init) -> 4097 (map).
+[00:30:27] [Server thread/INFO] [FML/]: Found a missing id from the world jadecraft:JadeBoots
+[00:30:27] [Server thread/DEBUG] [FML/]: Fixed minecraft:items id mismatch jadecraft:jadesword: 4100 (init) -> 4105 (map).
+[00:30:27] [Server thread/DEBUG] [FML/]: Fixed minecraft:items id mismatch jadecraft:jadeaxe: 4102 (init) -> 4109 (map).
+[00:30:27] [Server thread/DEBUG] [FML/]: Fixed minecraft:items id mismatch jadecraft:jadepickaxe: 4101 (init) -> 4107 (map).
+[00:30:27] [Server thread/DEBUG] [FML/]: Fixed minecraft:items id mismatch jadecraft:sapphirepickaxe: 4106 (init) -> 4118 (map).
+[00:30:27] [Server thread/DEBUG] [FML/]: Fixed minecraft:items id mismatch jadecraft:Caliburn: 4111 (init) -> 4110 (map).
+[00:30:27] [Server thread/DEBUG] [FML/]: Fixed minecraft:items id mismatch jadecraft:sapphireblock: 4120 (init) -> 4111 (map).
+[00:30:27] [Server thread/INFO] [FML/]: Found a missing id from the world jadecraft:JadeHelmet
+[00:30:27] [Server thread/DEBUG] [FML/]: Fixed minecraft:items id mismatch jadecraft:jade: 4096 (init) -> 4098 (map).
+[00:30:27] [Server thread/INFO] [FML/]: Found a missing id from the world jadecraft:JadeArmor
+[00:30:27] [Server thread/DEBUG] [FML/]: Fixed minecraft:items id mismatch jadecraft:mysterious_crystal: 4099 (init) -> 4100 (map).
+[00:30:27] [Server thread/DEBUG] [FML/]: Fixed minecraft:items id mismatch jadecraft:jadeshovel: 4104 (init) -> 4108 (map).
+[00:30:27] [Server thread/INFO] [FML/]: Found a missing id from the world jadecraft:Sapphire_Ore
+[00:30:27] [Server thread/DEBUG] [FML/]: Fixed minecraft:items id mismatch jadecraft:excalibur: 4110 (init) -> 4115 (map).
+[00:30:27] [Server thread/DEBUG] [FML/]: Fixed minecraft:items id mismatch jadecraft:sapphire: 4097 (init) -> 4114 (map).
+[00:30:27] [Server thread/INFO] [FML/]: Found a missing id from the world jadecraft:JadeLeggings
+[00:30:27] [Server thread/DEBUG] [FML/]: There are 6 mappings missing - attempting a mod remap
+[00:30:27] [Server thread/TRACE] [mcp/mcp]: Sending event FMLMissingMappingsEvent to mod mcp
+[00:30:27] [Server thread/TRACE] [mcp/mcp]: Sent event FMLMissingMappingsEvent to mod mcp
+[00:30:27] [Server thread/DEBUG] [FML/]: Bar Step: MissingMappings - Minecraft Coder Pack took 0.001s
+[00:30:27] [Server thread/TRACE] [FML/FML]: Sending event FMLMissingMappingsEvent to mod FML
+[00:30:27] [Server thread/TRACE] [FML/FML]: Sent event FMLMissingMappingsEvent to mod FML
+[00:30:27] [Server thread/DEBUG] [FML/]: Bar Step: MissingMappings - Forge Mod Loader took 0.000s
+[00:30:27] [Server thread/TRACE] [Forge/Forge]: Sending event FMLMissingMappingsEvent to mod Forge
+[00:30:27] [Server thread/TRACE] [Forge/Forge]: Sent event FMLMissingMappingsEvent to mod Forge
+[00:30:27] [Server thread/DEBUG] [FML/]: Bar Step: MissingMappings - Minecraft Forge took 0.000s
+[00:30:27] [Server thread/TRACE] [JadeCraft/JadeCraft]: Sending event FMLMissingMappingsEvent to mod JadeCraft
+[00:30:27] [Server thread/TRACE] [JadeCraft/JadeCraft]: Sent event FMLMissingMappingsEvent to mod JadeCraft
+[00:30:27] [Server thread/DEBUG] [FML/]: Bar Step: MissingMappings - JadeCraft took 0.000s
+[00:30:27] [Server thread/DEBUG] [FML/]: Bar Finished: MissingMappings took 0.002s
+[00:30:27] [Server thread/ERROR] [FML/]: There are unidentified mappings in this world - we are going to attempt to process anyway
+[00:30:27] [Server thread/ERROR] [FML/]: Unidentified block: jadecraft:Sapphire_Ore, id 201
+[00:30:27] [Server thread/ERROR] [FML/]: Unidentified item: jadecraft:JadeBoots, id 4104
+[00:30:27] [Server thread/ERROR] [FML/]: Unidentified item: jadecraft:JadeHelmet, id 4101
+[00:30:27] [Server thread/ERROR] [FML/]: Unidentified item: jadecraft:JadeArmor, id 4102
+[00:30:27] [Server thread/ERROR] [FML/]: Unidentified item: jadecraft:Sapphire_Ore, id 4113
+[00:30:27] [Server thread/ERROR] [FML/]: Unidentified item: jadecraft:JadeLeggings, id 4103
+[00:30:27] [Server thread/WARN] [FML/]: Forge Mod Loader detected missing blocks/items.
+
+There are 6 missing blocks and items in this save.
+If you continue the missing blocks/items will get removed.
+A world backup will be automatically created in your saves directory.
+
+Missing Blocks/Items:
+jadecraft:Sapphire_Ore
+jadecraft:JadeBoots
+jadecraft:JadeHelmet
+jadecraft:JadeArmor
+jadecraft:Sapphire_Ore
+jadecraft:JadeLeggings
+
+
+Run the command /fml confirm or or /fml cancel to proceed.
+Alternatively start the server with -Dfml.queryResult=confirm or -Dfml.queryResult=cancel to preselect the answer.
+[00:30:34] [Server thread/DEBUG] [FML/]: Reverting to frozen data state.
+[00:30:34] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[00:30:34] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[00:30:34] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.001s
+[00:30:34] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[00:30:34] [Server thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[00:30:34] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0.000s
+[00:30:34] [Server thread/TRACE] [Forge/Forge]: Sending event FMLModIdMappingEvent to mod Forge
+[00:30:34] [Server thread/TRACE] [Forge/Forge]: Sent event FMLModIdMappingEvent to mod Forge
+[00:30:34] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0.001s
+[00:30:34] [Server thread/TRACE] [JadeCraft/JadeCraft]: Sending event FMLModIdMappingEvent to mod JadeCraft
+[00:30:34] [Server thread/TRACE] [JadeCraft/JadeCraft]: Sent event FMLModIdMappingEvent to mod JadeCraft
+[00:30:34] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - JadeCraft took 0.000s
+[00:30:34] [Server thread/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0.002s
+[00:30:34] [Server thread/INFO] [FML/]: Applying holder lookups
+[00:30:34] [Server thread/INFO] [FML/]: Holder lookups applied
+[00:30:34] [Server thread/DEBUG] [FML/]: Frozen state restored.
+[00:30:34] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppedEvent to mod mcp
+[00:30:34] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppedEvent to mod mcp
+[00:30:34] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Coder Pack took 0.000s
+[00:30:34] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppedEvent to mod FML
+[00:30:34] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppedEvent to mod FML
+[00:30:34] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Forge Mod Loader took 0.000s
+[00:30:34] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppedEvent to mod Forge
+[00:30:34] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppedEvent to mod Forge
+[00:30:34] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Forge took 0.000s
+[00:30:34] [Server thread/TRACE] [JadeCraft/JadeCraft]: Sending event FMLServerStoppedEvent to mod JadeCraft
+[00:30:34] [Server thread/TRACE] [JadeCraft/JadeCraft]: Sent event FMLServerStoppedEvent to mod JadeCraft
+[00:30:34] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - JadeCraft took 0.000s
+[00:30:34] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopped took 0.001s
+[00:30:34] [Server thread/INFO] [FML/]: The state engine was in incorrect state SERVER_STARTING and forced into state SERVER_STOPPED. Errors may have been discarded.

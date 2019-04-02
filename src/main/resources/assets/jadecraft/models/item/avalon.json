@@ -1,7 +1,7 @@
 {
     "parent": "builtin/generated",
     "textures": {
-        "layer0": "jadecraft:items/avalon"
+        "layer0": "jadecraft:items/tools/avalon"
     },
     "display": {
         "thirdperson": {
