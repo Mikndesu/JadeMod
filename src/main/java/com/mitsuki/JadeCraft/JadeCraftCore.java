@@ -85,6 +85,7 @@ public class JadeCraftCore {
 	public static Item jadeAxe;
 	public static Item jadeHoe;
 	public static Item jadeShovel;
+
 	//Sapphire Tool
 	public static Item sapphireSword;
 	public static Item sapphirePickaxe;
@@ -128,6 +129,7 @@ public class JadeCraftCore {
 		  sapphire_Ore = new Sapphire_Ore();
 		  jadeBlock = new JadeBlock();
 		  sapphireBlock = new SapphireBlock();
+
 
 		  GameRegistry.registerItem(jade, "jade");
 		  GameRegistry.registerItem(sapphire, "sapphire");
